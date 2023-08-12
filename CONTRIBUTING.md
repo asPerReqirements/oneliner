@@ -8,7 +8,7 @@
 
 click your Profile Image)
 
-2. Clone the **green** forked repository to your local machine.
+2. Clone the forked repository to your local machine.
 
 ```bash
 https://github.com/<yourname>/oneliner.git
