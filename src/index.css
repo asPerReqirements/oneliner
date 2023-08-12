@@ -1,13 +1,235 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary-color: ;
+  --secondary-color: rgb(25, 24, 25);
+  --text-color: #D9D9D9;
+  --btn-bg-color: #FFF500;
+  --body-bg-color: rgb(43, 43, 43);
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--body-bg-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  animation: changeBg 5s infinite;
+}
+
+header,
+footer {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  height: 3.5rem;
+  width: 100vw;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--text-color);
+}
+
+header h1 {
+  font-weight: 600;
+  user-select: none;
+  cursor: pointer;
+}
+/* header end */
+
+/* body */
+.body_container {
+  margin-top: 7rem;
+}
+
+.body__fields {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5rem;
+}
+
+.body__fields--input {
+  width: 48%;
+  height: 3rem;
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: var(--secondary-color);
+  font-weight: inherit;
+  background-color: var(--text-color);
+  padding: 3px 10px;
+  border: none;
+}
+
+.section__answer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.answer {
+  width: 48%;
+  border: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.answer__p {
+  border-radius: 5px;
+  outline: none;
+  color: var(--secondary-color);
+  font-weight: inherit;
+  background-color: var(--text-color);
+  padding: 5px 10px;
+  word-wrap: break-word;
+  user-select: all;
+}
+
+.answer_conatiner {
+  display: flex;
+  position: relative;
+}
+
+.hide_answer {
+  position: absolute;
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 1.3rem;
+  font-weight: 900;
+  right: -20px;
+  top: -5px;
+  cursor: pointer;
+}
+/* body end */
+
+/* Not found page */
+
+.notfound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10rem;
+  flex-direction: column;
+}
+
+.notfound h1 {
+  color: red;
+  font-size: 3rem;
+  user-select: none;
+}
+
+/* Not found page end */
+
+
+/* Footer start */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--text-color);
+  user-select: none;
+  flex-direction: column;
+  column-gap: 5px;
+}
+
+.footer {
+  position: relative;
+}
+
+.action__container {
+  position: absolute;
+  bottom: 4rem;
+  right: 1rem;
+}
+
+.github {
+  height: 2.3rem;
+  width: 2.3rem;
+  cursor: pointer;
+}
+
+/* Footer end */
+
+
+/* Utils start */
+.small{
+  font-size: 0.8rem;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--btn-bg-color);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+@keyframes changeBg {
+  0% {
+    background-color: rgb(43, 43, 43);
+  }
+
+  25% {
+    background-color: rgb(47, 47, 47);
+  }
+
+  50% {
+    background-color: rgb(53, 53, 53);
+  }
+
+  75% {
+    background-color: rgb(47, 47, 47);
+  }
+
+  100% {
+    background-color: rgb(43, 43, 43);
+  }
+}
+
+/* Utils end */

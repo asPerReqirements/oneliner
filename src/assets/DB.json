@@ -1,0 +1,47 @@
+[
+    {
+        "question": "",
+        "answer": "Enter something",
+        "category": "helper"
+    },
+    {
+        "question": "chmod",
+        "answer": "change permissions of a file",
+        "category": "linux"
+    },
+    {
+        "question": "ls",
+        "answer": "list directory contents",
+        "category": "linux"
+    },
+    {
+        "question": "cd",
+        "answer": "Change directory",
+        "category": "linux"
+    },
+    {
+        "question": "mkdir",
+        "answer": "Create a directory",
+        "category": "linux"
+    },
+    {
+        "question": "pwd",
+        "answer": "Print Working Dirctory",
+        "category": "linux"
+    },
+    {
+        "question": "mv",
+        "answer": "move file ev: mv src dst",
+        "category": "linux"
+    },
+    {
+        "question": "kernel",
+        "answer": "The kernel is a computer program at the core of a computer's operating system and generally has complete control over everything in the system.",
+        "category": "linux"
+    },
+    {
+        "question": "chown",
+        "answer": "Change Ownership of file",
+        "category": "linux"
+    }
+]
