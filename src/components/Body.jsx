@@ -1,26 +1,21 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Answer from "./Answer";
-import DB from "../assets/DB.json"
+import hashMap from "./hashmap";
 
 const Body = () => {
 
-    const [data, setData] = useState([]);
     const [answer, setAnser] = useState([])
     const [showAnswer, setShowAnswer] = useState(false)
 
     const handleSearch = (e) => {
-        let value = e.target.value
-        data.forEach(block => {
-            if (block.question.toLowerCase() === value.toLowerCase()) {
-                setAnser(block)
-                setShowAnswer(true)
-            }
-        })
+        let value = e.target.value;
+        let query = hashMap[value.toLowerCase()];
+        if(query !== undefined)
+        {
+            setAnser(query)
+            setShowAnswer(true)
+        }
     }
-
-    useEffect(() => {
-        setData(DB);
-    }, [])
 
     return (
         <>
