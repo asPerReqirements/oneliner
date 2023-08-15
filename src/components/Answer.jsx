@@ -1,4 +1,7 @@
 
+import ReactMarkdown from 'react-markdown'
+
+
 const Answer = ({ answer, showAnswer, setShowAnswer }) => {
 
     const hide = () => {
@@ -13,7 +16,7 @@ const Answer = ({ answer, showAnswer, setShowAnswer }) => {
                     <div className="answer_conatiner">
 
                         <p className="answer__p">
-                            {answer.answer}
+                            <ReactMarkdown>{answer.answer}</ReactMarkdown>
                         </p>
                         <button onClick={hide} className="hide_answer">x</button>
                     </div>
