@@ -43,5 +43,3865 @@
         "question": "chown",
         "answer": "Change Ownership of file",
         "category": "linux"
+    },
+    {
+        "question": "curl",
+        "answer": "Command-line tool to transfer data with URLs. Example: `curl https://www.example.com` (downloads the content of example.com)",
+        "category": "linux"
+    },
+    {
+        "question": "strace",
+        "answer": "Trace system calls and signals. Example: `strace ls` (traces system calls made by the 'ls' command)",
+        "category": "linux"
+    },
+    {
+        "question": "base64",
+        "answer": "Encode/decode binary files to/from base64. Example: `base64 image.jpg` (encodes an image file into base64)",
+        "category": "linux"
+    },
+    {
+        "question": "htop",
+        "answer": "Interactive process viewer",
+        "category": "linux"
+    },
+    {
+        "question": "uniq",
+        "answer": "Display unique lines from a sorted file. Example: `sort file.txt | uniq` (removes duplicate lines from a sorted text file)",
+        "category": "linux"
+    },
+    {
+        "question": "rot13",
+        "answer": "Rotate characters by 13 positions. Example: `echo 'Hello' | tr 'A-Za-z' 'N-ZA-Mn-za-m'` (applies ROT13 encryption to the text)",
+        "category": "linux"
+    },
+    {
+        "question": "fish",
+        "answer": "A shell. Must try",
+        "category": "linux"
+    },
+    {
+        "question": "gzip",
+        "answer": "Compress or decompress files. Example: `gzip file.txt` (compresses the 'file.txt' and creates 'file.txt.gz')",
+        "category": "linux"
+    },
+    {
+        "question": "netsparker",
+        "answer": " Web application security scanner. Example: `netsparker scan https://www.example.com` (scans a website for vulnerabilities)",
+        "category": "linux"
+    },
+    {
+        "question": "intruder",
+        "answer": "Automates customized attacks. Example: `intruder -target https://www.example.com -payloads payloads.txt` (automates attacks with custom payloads)",
+        "category": "linux"
+    },
+    {
+        "question": "traceroute",
+        "answer": "Discover the path packets take across an IP network. Example: `traceroute www.google.com` (displays the route taken by packets to reach Google's servers)",
+        "category": "linux"
+    },
+    {
+        "question": "burpsuit",
+        "answer": "Web vulnerability scanner and proxy tool. Example: `burpsuite` (opens the Burp Suite graphical interface)",
+        "category": "linux"
+    },
+    {
+        "question": "ipconfig",
+        "answer": "config a network interface.",
+        "category": "linux"
+    },
+    {
+        "question": "aircrack",
+        "answer": "Wi-Fi network security tool. Example: `aircrack-ng capture.cap` (cracks WEP or WPA keys from a Wi-Fi capture file)",
+        "category": "linux"
+    },
+    {
+        "question": "hashcat",
+        "answer": "Password recovery tool. Example: `hashcat -m 0 hash.txt wordlist.txt` (attempts to crack a hash using a wordlist)",
+        "category": "linux"
+    },
+    {
+        "question": "netstumbler",
+        "answer": "Wireless network discovery tool. Example: `netstumbler` (scans for nearby wireless networks)",
+        "category": "linux"
+    },
+    {
+        "question": "SQLmap",
+        "answer": "Detect and exploit SQL injection vulnerabilities. Example: `sqlmap -u 'https://www.example.com/index.php?id=1'` (explores SQL injection on a website)",
+        "category": "linux"
+    },
+    {
+        "question": "dig",
+        "answer": "DNS lookup utility. Example: `dig www.example.com` (performs a DNS lookup for example.com)",
+        "category": "linux"
+    },
+    {
+        "question": "wall",
+        "answer": "Send messages to all users' terminals. Example: `echo 'Emergency meeting at 2 PM!' | wall` (sends a message to all users)",
+        "category": "linux"
+    },
+    {
+        "question": "w",
+        "answer": "Show who is logged on and what they're doing. Example: `w` (displays information about currently logged-in users)",
+        "category": "linux"
+    },
+    {
+        "question": "mkpasswd",
+        "answer": "Generate passwords. Example: `mkpasswd -m sha-512` (generates a SHA-512 hashed password)",
+        "category": "linux"
+    },
+    {
+        "question": "lsof",
+        "answer": "List ipen files.",
+        "category": "linux"
+    },
+    {
+        "question": "df",
+        "answer": "report file system space. eg `df -h`",
+        "category": "linux"
+    },
+    {
+        "question": "free",
+        "answer": "Display amount of free and used memeoty in system. eg `free -h`",
+        "category": "linux"
+    },
+    {
+        "question": "dpkg",
+        "answer": "Install a Debian package. Example: `dpkg -i package.deb` (installs a Debian package)",
+        "category": "linux"
+    },
+    {
+        "question": "whatweb",
+        "answer": "Web scanner. Example: `whatweb www.example.com` (scans a website and gathers information)",
+        "category": "linux"
+    },
+    {
+        "question": "searchsploit",
+        "answer": "Search for exploits in Exploit Database. Example: `searchsploit wordpress` (searches for exploits related to WordPress)",
+        "category": "linux"
+    },
+    {
+        "question": "ip a",
+        "answer": "Show IP addresses of network interfaces. Example: `ip a` (displays IP addresses and network interfaces)",
+        "category": "linux"
+    },
+    {
+        "question": "arp",
+        "answer": "Display or modify the IP-to-Physical address translation tables. Example: `arp -a` (displays the ARP table)",
+        "category": "linux"
+    },
+    {
+        "question": "route",
+        "answer": "Show or manipulate IP routing table. Example: `route -n` (displays the IP routing table)",
+        "category": "linux"
+    },
+    {
+        "question": "nikto",
+        "answer": "Web server scanner. Example: `nikto -h www.example.com` (scans a web server for vulnerabilities)",
+        "category": "linux"
+    },
+    {
+        "question": "nss",
+        "answer": "Name Service Switch configuration file. Example: `cat /etc/nsswitch.conf` (displays the NSS configuration)",
+        "category": "linux"
+    },
+    {
+        "question": "vega",
+        "answer": "Web security scanner and testing platform. Example: `vega` (opens the Vega graphical interface)",
+        "category": "linux"
+    },
+    {
+        "question": "utw",
+        "answer": "program for managing a netfilter firewall.",
+        "category": "linux"
+    },
+    {
+        "question": "rsync",
+        "answer": "a fast, versatile, remote (and local) file-copying tool.",
+        "category": "linux"
+    },
+    {
+        "question": "directives",
+        "answer": "Configuration settings for various applications. Example: `nginx -t` (checks the syntax of Nginx configuration)",
+        "category": "linux"
+    },
+    {
+        "question": "msf console",
+        "answer": "Metasploit Framework console. Example: `msfconsole` (opens the Metasploit Framework console)",
+        "category": "linux"
+    },
+    {
+        "question": "msf venom",
+        "answer": "Metasploit payload generator. Example: `msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 LPORT=4444 -f exe > payload.exe` (generates a Windows reverse shell payload)",
+        "category": "linux"
+    },
+    {
+        "question": "subclient",
+        "answer": "ftp-like client to access SMB/CIFS resources on servers.",
+        "category": "linux"
+    },
+    {
+        "question": "ping",
+        "answer": "Send ICMP echo requests to network hosts. Example: `ping www.google.com` (sends ICMP requests to Google)",
+        "category": "linux"
+    },
+    {
+        "question": "traceroute",
+        "answer": "Determine the route taken by packets. Example: `traceroute www.example.com` (displays the route taken by packets to reach example.com)",
+        "category": "linux"
+    },
+    {
+        "question": "whois",
+        "answer": "Lookup domain registration information. Example: `whois example.com` (retrieves WHOIS information for example.com)",
+        "category": "linux"
+    },
+    {
+        "question": "ip route show",
+        "answer": "Display routing table. Example: `ip route show` (displays the IP routing table)",
+        "category": "linux"
+    },
+    {
+        "question": "ip addr",
+        "answer": "Show IP address settings for network interfaces. Example: `ip addr show eth0` (displays IP address settings for the 'eth0' interface)",
+        "category": "linux"
+    },
+    {
+        "question": "service network manager",
+        "answer": "Manage network services. Example: `service NetworkManager restart` (restarts the NetworkManager service)",
+        "category": "linux"
+    },
+    {
+        "question": "netstat",
+        "answer": "Network statistics. Example: `netstat -tuln` (displays active TCP and UDP network connections)",
+        "category": "linux"
+    },
+    {
+        "question": "FTP",
+        "answer": "File Transfer Protocol. Example: `ftp ftp.example.com` (connects to an FTP server). Uses port 21",
+        "category": "linux"
+    },
+    {
+        "question": "SSH",
+        "answer": "Secure Shell. Example: `ssh user@host` (connects to a remote host using SSH). Uses Port 22",
+        "category": "linux"
+    },
+    {
+        "question": "smd",
+        "answer": "Server Message Block protocol. Example: `smbclient -L //host` (lists shares on an SMB server). Port 139, 445",
+        "category": "linux"
+    },
+    {
+        "question": "HTTP",
+        "answer": "Hypertext Transfer Protocol/Secure. Example: `curl http://www.example.com` (downloads content from example.com)",
+        "category": "internet"
+    },
+    {
+        "question": "less",
+        "answer": "Display file contents. Example: `less file.txt` (displays the content of a file)",
+        "category": "linux"
+    },
+    {
+        "question": "route",
+        "answer": "Display current routing table. Example: `route -m` (displays the IP routing table)",
+        "category": "linux"
+    },
+    {
+        "question": "whatis",
+        "answer": "Display one-line manual page descriptions. eg `whatis ls`",
+        "category": "linux"
+    },
+    {
+        "question": "whereis",
+        "answer": "locate the binary, source, and manual page files for a command. eg `whereis ls`",
+        "category": "linux"
+    },
+    {
+        "question": "wc",
+        "answer": "Count lines in a file. Example: `wc -l file.txt` (counts the number of lines in 'file.txt')",
+        "category": "linux"
+    },
+    {
+        "question": "sort",
+        "answer": "Sort and remove duplicates from text files. Example: `sort -u file.txt` (sorts and removes duplicate lines from 'file.txt')",
+        "category": "linux"
+    },
+    {
+        "question": "cron",
+        "answer": "Schedule tasks at specific times. Example: `crontab -e` (edit the user's crontab file)",
+        "category": "linux"
+    },
+    {
+        "question": "setuid",
+        "answer": "Set user or group ID on execution. Example: `chmod u+s file` (sets the SUID permission on 'file')",
+        "category": "linux"
+    },
+    {
+        "question": "searchsploit",
+        "answer": "Exploit Database Archive Search. eg `searchsploit ssh`",
+        "category": "linux"
+    },
+    {
+        "question": "netdiscover",
+        "answer": "active/passive ARP reconnaissance tool.",
+        "category": "linux"
+    },
+    {
+        "question": "wget",
+        "answer": "Command-line utility to download files. Example: `wget https://www.example.com/file.txt` (downloads 'file.txt' from example.com)",
+        "category": "linux"
+    },
+    {
+        "question": "binwalk",
+        "answer": "Firmware analysis tool. Example: `binwalk firmware.img` (analyzes a firmware image)",
+        "category": "linux"
+    },
+    {
+        "question": "zip2john",
+        "answer": "Convert zip file to John the Ripper format. Example: `zip2john archive.zip > hash.txt` (converts 'archive.zip' to John format)",
+        "category": "linux"
+    },
+    {
+        "question": "arp",
+        "answer": "Display or modify the IP-to-Physical address translation tables. Example: `arp -a` (displays the ARP table)",
+        "category": "linux"
+    },
+    {
+        "question": "sudo",
+        "answer": "execute a command as another user",
+        "category": "linux"
+    },
+    {
+        "question": "sudo -l",
+        "answer": "List user's privileges. Example: `sudo -l` (lists user's sudo privileges)",
+        "category": "linux"
+    },
+    {
+        "question": "top",
+        "answer": "Monitor system activity. Example: `top` (displays real-time system activity)",
+        "category": "linux"
+    },
+    {
+        "question": "hashdump",
+        "answer": "Dump password hashes. Example: `hashdump` (dumps password hashes from a system)",
+        "category": "linux"
+    },
+    {
+        "question": "nc",
+        "answer": "Netcat listener on a port. Example: `nc -vnlp 4444` (starts a Netcat listener on port 4444)",
+        "category": "linux"
+    },
+    {
+        "question": "proxychains",
+        "answer": "redirect connections through proxy servers.",
+        "category": "linux"
+    },
+    {
+        "question": "uid",
+        "answer": "User ID. Example: `uid` (displays user's ID)",
+        "category": "linux"
+    },
+    {
+        "question": "macchanger",
+        "answer": "Change MAC address. Example: `macchanger -r eth0` (randomly changes MAC address of 'eth0')",
+        "category": "linux"
+    },
+    {
+        "question": "ss",
+        "answer": "Socket statistics. Example: `ss -tuln` (displays TCP and UDP socket statistics)",
+        "category": "linux"
+    },
+    {
+        "question": "netstat",
+        "answer": "Display routing table. Example: `netstat -r` (displays the IP routing table)",
+        "category": "linux"
+    },
+    {
+        "question": "netdiscober",
+        "answer": "Scan eth0 connections. eg. `netdiscoker -i eth0`",
+        "category": "linux"
+    },
+    {
+        "question": "dns",
+        "answer": "Domain Name System. Example: `nslookup www.example.com` (performs DNS lookup for example.com)",
+        "category": "linux"
+    },
+    {
+        "question": "htop",
+        "answer": "Interactive process viewer. Example: `htop` (displays interactive system processes)",
+        "category": "linux"
+    },
+    {
+        "question": "systemctl",
+        "answer": "Control the systemd system and service manager. Example: `systemctl start service-name` (starts a systemd service)",
+        "category": "linux"
+    },
+    {
+        "question": "ssl",
+        "answer": "Secure Sockets Layer. ",
+        "category": "internet"
+    },
+    {
+        "question": "tar",
+        "answer": "Extract files from a tar archive. Example: `tar -xf archive.tar.gz` (extracts 'archive.tar.gz')",
+        "category": "linux"
+    },
+    {
+        "question": "bzip2",
+        "answer": "File compression tool. Example: `bzip2 file.txt` (compresses 'file.txt' and creates 'file.txt.bz2')",
+        "category": "linux"
+    },
+    {
+        "question": "nessus",
+        "answer": "Vulnerability scanner. Example: `nessus` (starts the Nessus vulnerability scanner)",
+        "category": "linux"
+    },
+    {
+        "question": "cut",
+        "answer": "Remove sections from lines of files. Example: `cut -d',' -f1 file.csv` (removes first field from CSV file)",
+        "category": "linux"
+    },
+    {
+        "question": "rand",
+        "answer": "Generate random numbers. ",
+        "category": "linux"
+    },
+    {
+        "question": "ettercap",
+        "answer": "multipurpose sniffer/content filter for man in the middle attacks.",
+        "category": "linux"
+    },
+    {
+        "question": "netsparker",
+        "answer": "Web application security scanner. Example: `netsparker scan https://www.example.com` (scans a website for vulnerabilities)",
+        "category": "linux"
+    },
+    {
+        "question": "acunetis",
+        "answer": "Web vulnerability scanner. ",
+        "category": "linux"
+    },
+    {
+        "question": "metasploit",
+        "answer": "Penetration testing framework. Example: `msfconsole` (opens the Metasploit console)",
+        "category": "linux"
+    },
+    {
+        "question": "aircrack",
+        "answer": "Wi-Fi network security tool. Example: `aircrack-ng capture.cap` (cracks WEP/WPA keys from a Wi-Fi capture file)",
+        "category": "linux"
+    },
+    {
+        "question": "strings",
+        "answer": "Display printable characters from files. Example: `strings binary.exe` (displays printable strings from 'binary.exe')",
+        "category": "linux"
+    },
+    {
+        "question": "lspci",
+        "answer": "List all pci devices.",
+        "category": "linux"
+    },
+    {
+        "question": "ps",
+        "answer": "All running processes.",
+        "category": "linux"
+    },
+    {
+        "question": "free",
+        "answer": "Display memory usage. Example: `free -h` (displays memory usage in human-readable format)",
+        "category": "linux"
+    },
+    {
+        "question": "iftop",
+        "answer": "Real-time console-based network bandwidth monitoring tool. Example: `iftop -i eth0` (monitors bandwidth on 'eth0')",
+        "category": "linux"
+    },
+    {
+        "question": "umask",
+        "answer": "Set file permissions. Example: `umask 0022` (sets default file permissions)",
+        "category": "linux"
+    },
+    {
+        "question": "hunter.io",
+        "answer": "An email hunter tool that helps marketers find the contact information associated with any domain.",
+        "category": "linux"
+    },
+    {
+        "question": "crt.sh",
+        "answer": "Certificate Search.",
+        "category": "linux"
+    },
+    {
+        "question": "sublist3r",
+        "answer": "Subdomain enumeration tool. Example: `sublist3r -d example.com` (enumerates subdomains of example.com)",
+        "category": "linux"
+    },
+    {
+        "question": "builtwith",
+        "answer": "Web technology profiler. Example: `builtwith https://www.example.com` (profiles technologies used by a website)",
+        "category": "linux"
+    },
+    {
+        "question": "locate",
+        "answer": "Search files using a pre-built database. Example: `locate file.txt` (searches for 'file.txt' in the database)",
+        "category": "linux"
+    },
+    {
+        "question": "grep",
+        "answer": "Search text for patterns. Example: `grep pattern file.txt` (searches for 'pattern' in 'file.txt')",
+        "category": "linux"
+    },
+    {
+        "question": "|",
+        "answer": "Pipe operator. Example: `ls -l | grep '.txt'` (pipes 'ls -l' output to 'grep' to filter .txt files)",
+        "category": "linux"
+    },
+    {
+        "question": "group",
+        "answer": "User group management. Example: `groupadd mygroup` (creates a new user group 'mygroup')",
+        "category": "linux"
+    },
+    {
+        "question": "lscpu",
+        "answer": "display information about the CPU architecture.",
+        "category": "linux"
+    },
+    {
+        "question": "find",
+        "answer": "Search for files and directories. Example: `find /path/to/search -name '*.txt'` (finds all .txt files)",
+        "category": "linux"
+    },
+    {
+        "question": "find",
+        "answer": "Searches for symbolic links with the specified target filename. Example: `find /path/to/search -type f -lname 'target.txt'` (finds symbolic links to 'target.txt')",
+        "category": "linux"
+    },
+    {
+        "question": "ltrace",
+        "answer": "A library call tracker. eg `ltrace ls`",
+        "category": "linux"
+    },
+    {
+        "question": "locate",
+        "answer": "Find files by name, quickly",
+        "category": "linux"
+    },
+    {
+        "question": "Website",
+        "answer": "A collection of web pages accessible through a common domain.",
+        "category": "internet"
+    },
+    {
+        "question": "Search Engine",
+        "answer": "An online tool that helps users find information on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media",
+        "answer": "Online platforms that enable users to share content and interact with others.",
+        "category": "internet"
+    },
+    {
+        "question": "E-commerce",
+        "answer": "Electronic commerce, involving buying and selling goods and services online.",
+        "category": "internet"
+    },
+    {
+        "question": "Cloud Computing",
+        "answer": "Storing and accessing data and programs over the internet instead of a local computer.",
+        "category": "internet"
+    },
+    {
+        "question": "Cybersecurity",
+        "answer": "Protecting computer systems and networks from digital threats and attacks.",
+        "category": "internet"
+    },
+    {
+        "question": "URL (Uniform Resource Locator)",
+        "answer": "A web address used to locate resources on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "ISP (Internet Service Provider)",
+        "answer": "A company that provides internet access to customers.",
+        "category": "internet"
+    },
+    {
+        "question": "Domain Name",
+        "answer": "The human-readable address of a website, linked to an IP address.",
+        "category": "internet"
+    },
+    {
+        "question": "Browser",
+        "answer": "Software used to access and navigate websites and web applications.",
+        "category": "internet"
+    },
+    {
+        "question": "HTML (Hypertext Markup Language)",
+        "answer": "The standard language for creating web pages.",
+        "category": "internet"
+    },
+    {
+        "question": "CSS (Cascading Style Sheets)",
+        "answer": "Used to define the look and formatting of a web page.",
+        "category": "internet"
+    },
+    {
+        "question": "JavaScript",
+        "answer": "A programming language that adds interactivity and dynamic elements to websites.",
+        "category": "internet"
+    },
+    {
+        "question": "Blog",
+        "answer": "An online journal or informational website, often updated with new content.",
+        "category": "internet"
+    },
+    {
+        "question": "Podcast",
+        "answer": "Digital audio or video files available for streaming or downloading.",
+        "category": "internet"
+    },
+    {
+        "question": "Streaming",
+        "answer": "Transmitting data, such as audio or video, over the internet in real-time.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Networking",
+        "answer": "Online platforms that connect individuals and allow sharing of content.",
+        "category": "internet"
+    },
+    {
+        "question": "Viral",
+        "answer": "Content that spreads rapidly and widely across the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Spam",
+        "answer": "Unsolicited and often irrelevant or harmful messages sent over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Gaming",
+        "answer": "Playing video games over the internet with other players.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Marketing",
+        "answer": "Promoting products or services using online channels.",
+        "category": "internet"
+    },
+    {
+        "question": "Cookies",
+        "answer": "Small data files stored on a user's device by websites for various purposes.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Privacy",
+        "answer": "The protection of personal information and data on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Phishing",
+        "answer": "Fraudulent attempts to obtain sensitive information by posing as a trustworthy entity.",
+        "category": "internet"
+    },
+    {
+        "question": "SEO (Search Engine Optimization)",
+        "answer": "Techniques to improve a website's visibility on search engines.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Hosting",
+        "answer": "Services that store and make websites accessible on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Algorithm",
+        "answer": "A set of rules or instructions followed by computers to solve problems.",
+        "category": "internet"
+    },
+    {
+        "question": "AI (Artificial Intelligence)",
+        "answer": "Machines or software that mimic human intelligence and behavior.",
+        "category": "internet"
+    },
+    {
+        "question": "IoT (Internet of Things)",
+        "answer": "Connecting everyday objects to the internet for data exchange.",
+        "category": "internet"
+    },
+    {
+        "question": "Wiki",
+        "answer": "A collaborative website allowing users to add, edit, and modify content.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Footprint",
+        "answer": "Traces of online activity left by users, often for data collection.",
+        "category": "internet"
+    },
+    {
+        "question": "SSL (Secure Sockets Layer)",
+        "answer": "Encryption protocol ensuring secure data transmission over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Webinar",
+        "answer": "Online seminars or workshops conducted via the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Crowdfunding",
+        "answer": "Raising funds for projects through small contributions from many people online.",
+        "category": "internet"
+    },
+    {
+        "question": "Geotagging",
+        "answer": "Adding location data to online content, such as photos or posts.",
+        "category": "internet"
+    },
+    {
+        "question": "URL Shortening",
+        "answer": "Creating a shorter version of a long web address for sharing.",
+        "category": "internet"
+    },
+    {
+        "question": "Emoticon",
+        "answer": "Characters or symbols used to express emotions in online communication.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Bookmarking",
+        "answer": "Saving and organizing web links for easy access and sharing.",
+        "category": "internet"
+    },
+    {
+        "question": "Firewall",
+        "answer": "Security system that monitors and controls incoming and outgoing network traffic.",
+        "category": "internet"
+    },
+    {
+        "question": "API (Application Programming Interface)",
+        "answer": "Set of rules allowing software applications to communicate.",
+        "category": "internet"
+    },
+    {
+        "question": "Vlogging",
+        "answer": "Creating and sharing video content online, often in a personal diary format.",
+        "category": "internet"
+    },
+    {
+        "question": "Troll",
+        "answer": "Someone who posts provocative or offensive comments online to provoke reactions.",
+        "category": "internet"
+    },
+    {
+        "question": "FAQ (Frequently Asked Questions)",
+        "answer": "List of commonly asked questions and answers on a website.",
+        "category": "internet"
+    },
+    {
+        "question": "Hashtag",
+        "answer": "A keyword or phrase preceded by a # symbol, used to categorize and search content.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Analytics",
+        "answer": "Gathering and analyzing data on website usage to improve performance.",
+        "category": "internet"
+    },
+    {
+        "question": "Spam Filter",
+        "answer": "Software that identifies and blocks unwanted or irrelevant email messages.",
+        "category": "internet"
+    },
+    {
+        "question": "RSS (Really Simple Syndication)",
+        "answer": "Web feed format for delivering regularly updated content.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Influencer",
+        "answer": "Individuals who have a significant online following and impact opinions.",
+        "category": "internet"
+    },
+    {
+        "question": "QR Code (Quick Response Code)",
+        "answer": "Matrix barcode readable by smartphones, often used for links.",
+        "category": "internet"
+    },
+    {
+        "question": "SaaS (Software as a Service)",
+        "answer": "Providing software applications over the internet on a subscription basis.",
+        "category": "internet"
+    },
+    {
+        "question": "Chatbot",
+        "answer": "AI-powered software that simulates human conversation for customer interactions.",
+        "category": "internet"
+    },
+    {
+        "question": "Microblogging",
+        "answer": "Sharing short, concise posts or updates on platforms like Twitter.",
+        "category": "internet"
+    },
+    {
+        "question": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart)",
+        "answer": "A test used to distinguish between humans and bots online.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Shopping Cart",
+        "answer": "Digital tool that allows users to collect items for purchase on e-commerce websites.",
+        "category": "internet"
+    },
+    {
+        "question": "Augmented Reality",
+        "answer": "Overlaying digital content onto the real world, often through mobile devices.",
+        "category": "internet"
+    },
+    {
+        "question": "VPN (Virtual Private Network)",
+        "answer": "Creating a secure connection to a private network over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "User Interface (UI)",
+        "answer": "The visual design and layout that users interact with on a website or app.",
+        "category": "internet"
+    },
+    {
+        "question": "User Experience (UX)",
+        "answer": "The overall impression and satisfaction users have while interacting with a product.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Accessibility",
+        "answer": "Designing websites to be usable by people with disabilities.",
+        "category": "internet"
+    },
+    {
+        "question": "Crowdsourcing",
+        "answer": "Obtaining ideas, services, or content from a large group of people online.",
+        "category": "internet"
+    },
+    {
+        "question": "Encryption",
+        "answer": "Converting data into a code to prevent unauthorized access.",
+        "category": "internet"
+    },
+    {
+        "question": "Dark Web",
+        "answer": "A hidden part of the internet that requires special software to access.",
+        "category": "internet"
+    },
+    {
+        "question": "Ransomware",
+        "answer": "Malicious software that encrypts a user's data until a ransom is paid.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Currency",
+        "answer": "Online forms of money, like Bitcoin, used for transactions.",
+        "category": "internet"
+    },
+    {
+        "question": "Web 2.0",
+        "answer": "The second generation of the internet, emphasizing user-generated content and collaboration.",
+        "category": "internet"
+    },
+    {
+        "question": "Cache",
+        "answer": "Temporary storage used to quickly retrieve previously accessed data.",
+        "category": "internet"
+    },
+    {
+        "question": "Malware",
+        "answer": "Software designed to harm or exploit computer systems.",
+        "category": "internet"
+    },
+    {
+        "question": "Server",
+        "answer": "A computer that stores and serves data to other devices on a network.",
+        "category": "internet"
+    },
+    {
+        "question": "DNS (Domain Name System)",
+        "answer": "The system that translates human-readable domain names into IP addresses.",
+        "category": "internet"
+    },
+    {
+        "question": "Download",
+        "answer": "Retrieving data from the internet and saving it to a local device.",
+        "category": "internet"
+    },
+    {
+        "question": "Upload",
+        "answer": "Sending data from a local device to a remote location on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Megabyte (MB)",
+        "answer": "A unit of digital information storage, approximately equal to one million bytes.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Forum",
+        "answer": "A platform for online discussions and sharing of ideas among users.",
+        "category": "internet"
+    },
+    {
+        "question": "Plugin",
+        "answer": "Software component that adds specific features or functionality to an existing application.",
+        "category": "internet"
+    },
+    {
+        "question": "Profile",
+        "answer": "Personalized information and settings associated with a user's online account.",
+        "category": "internet"
+    },
+    {
+        "question": "Shareware",
+        "answer": "Software that is available for use or download on a trial basis with payment required for full access.",
+        "category": "internet"
+    },
+    {
+        "question": "URL (Uniform Resource Locator)",
+        "answer": "A web address used to locate resources on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "World Wide Web",
+        "answer": "A system of interlinked hypertext documents accessed via the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Blogging",
+        "answer": "Writing and publishing articles or posts on a website.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Influencer",
+        "answer": "Individuals who have a large and engaged following on social media platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Payments",
+        "answer": "Electronic transactions for goods and services made over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Development",
+        "answer": "The process of creating and maintaining websites and web applications.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Learning",
+        "answer": "Education and training conducted over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Art",
+        "answer": "Art created or presented using digital technology.",
+        "category": "internet"
+    },
+    {
+        "question": "Cyberbullying",
+        "answer": "Using digital communication to harass, intimidate, or threaten others.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Auction",
+        "answer": "A platform where items are sold to the highest bidder over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "E-book",
+        "answer": "A digital version of a printed book that can be read on electronic devices.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Browser",
+        "answer": "Software used to access and navigate the World Wide Web.",
+        "category": "internet"
+    },
+    {
+        "question": "Internet of Things (IoT)",
+        "answer": "A network of interconnected devices that can communicate and exchange data.",
+        "category": "internet"
+    },
+    {
+        "question": "Instant Messaging",
+        "answer": "Real-time communication between individuals over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Collaboration",
+        "answer": "Working together on projects or tasks using internet-based tools.",
+        "category": "internet"
+    },
+    {
+        "question": "Data Breach",
+        "answer": "Unauthorized access and release of sensitive information.",
+        "category": "internet"
+    },
+    {
+        "question": "Emoji",
+        "answer": "Small digital icons used to express emotions or ideas in electronic communication.",
+        "category": "internet"
+    },
+    {
+        "question": "Cloud Storage",
+        "answer": "Storing and accessing data over the internet using remote servers.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Nomad",
+        "answer": "A person who works remotely and travels, relying on digital technology.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Dating",
+        "answer": "Using internet platforms to meet and connect with potential romantic partners.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Sharing",
+        "answer": "Sharing content, such as articles or media, on social media platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Reputation",
+        "answer": "The perception of an individual or entity based on their online presence.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Wallet",
+        "answer": "An electronic device or online service that stores payment information for online transactions.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Traffic",
+        "answer": "The amount of data sent and received by visitors to a website.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Hosting Provider",
+        "answer": "A company that offers services and technologies needed for a website to be accessible on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Remote Work",
+        "answer": "Working from a location outside of the traditional office, often enabled by internet connectivity.",
+        "category": "internet"
+    },
+    {
+        "question": "E-commerce Platform",
+        "answer": "An online software application that facilitates buying and selling products or services.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Advertising",
+        "answer": "Promoting products or services through paid advertisements on social media platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "Streaming Service",
+        "answer": "A platform that delivers multimedia content, such as music or video, over the internet for immediate consumption.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Reviews",
+        "answer": "Written assessments of products, services, or experiences posted by users on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Page",
+        "answer": "A single document accessible on the World Wide Web that may include text, images, and multimedia elements.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Engagement",
+        "answer": "Interactions, such as likes, comments, and shares, that users have with content on social media platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Portal",
+        "answer": "A website that serves as a gateway to various resources and services on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Video Conferencing",
+        "answer": "Real-time audio and video communication between multiple participants over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Signature",
+        "answer": "An electronic signature used to authenticate the identity of a user or the origin of digital messages.",
+        "category": "internet"
+    },
+    {
+        "question": "User-generated Content",
+        "answer": "Content created and shared by users rather than the platform or brand.",
+        "category": "internet"
+    },
+    {
+        "question": "Netiquette",
+        "answer": "The set of social conventions and manners observed in online communication.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Survey",
+        "answer": "A questionnaire distributed on the internet to collect opinions or information from respondents.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Citizenship",
+        "answer": "The responsible and ethical use of the internet and digital technologies.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Development Framework",
+        "answer": "A pre-built platform that simplifies the process of creating web applications.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Accessibility",
+        "answer": "Designing websites and applications to be usable by people with disabilities.",
+        "category": "internet"
+    },
+    {
+        "question": "Cyber Attack",
+        "answer": "An intentional and malicious attempt to compromise the security of computer systems or networks.",
+        "category": "internet"
+    },
+    {
+        "question": "Internet Connectivity",
+        "answer": "The ability of devices to access and communicate with the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Domain Extension",
+        "answer": "The last part of a domain name, indicating the type of organization or country.",
+        "category": "internet"
+    },
+    {
+        "question": "E-commerce Marketplace",
+        "answer": "An online platform where multiple vendors can sell their products or services.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Algorithm",
+        "answer": "A set of rules used by social media platforms to determine the content shown to users.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Chat",
+        "answer": "Real-time text-based communication between users over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Accessibility Guidelines",
+        "answer": "Recommendations for making websites and content accessible to people with disabilities.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Literacy",
+        "answer": "The ability to use digital tools and technologies to access, evaluate, and create information.",
+        "category": "internet"
+    },
+    {
+        "question": "E-commerce Payment Gateway",
+        "answer": "An online service that processes payments for e-commerce transactions.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Profile",
+        "answer": "An online identity on a social media platform that represents an individual or entity.",
+        "category": "internet"
+    },
+    {
+        "question": "Internet Browser Extension",
+        "answer": "Software that adds functionality to a web browser and enhances the user experience.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Server",
+        "answer": "A computer or software that stores and delivers web content to users over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Internet Troll",
+        "answer": "Someone who posts provocative or offensive comments online to provoke reactions.",
+        "category": "internet"
+    },
+    {
+        "question": "FAQ (Frequently Asked Questions)",
+        "answer": "A list of commonly asked questions and answers on a website.",
+        "category": "internet"
+    },
+    {
+        "question": "Hashtag",
+        "answer": "A keyword or phrase preceded by a # symbol, used to categorize and search content.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Analytics",
+        "answer": "The process of collecting, analyzing, and interpreting data about website usage.",
+        "category": "internet"
+    },
+    {
+        "question": "Spam Filter",
+        "answer": "Software that identifies and blocks unwanted or irrelevant email messages.",
+        "category": "internet"
+    },
+    {
+        "question": "RSS (Really Simple Syndication)",
+        "answer": "A web feed format used to distribute frequently updated content.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Influencer",
+        "answer": "An individual who has a significant online following and impacts opinions.",
+        "category": "internet"
+    },
+    {
+        "question": "QR Code (Quick Response Code)",
+        "answer": "A matrix barcode readable by smartphones, often used for links or information sharing.",
+        "category": "internet"
+    },
+    {
+        "question": "SaaS (Software as a Service)",
+        "answer": "A software distribution model where applications are hosted by a third-party provider and accessed over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Chatbot",
+        "answer": "An AI-powered program designed to simulate human conversation in real-time interactions.",
+        "category": "internet"
+    },
+    {
+        "question": "Microblogging",
+        "answer": "Posting and sharing short, concise updates or messages on platforms like Twitter.",
+        "category": "internet"
+    },
+    {
+        "question": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart)",
+        "answer": "A challenge-response test used to determine if a user is human or a computer program.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Shopping Cart",
+        "answer": "A digital tool that allows users to collect and manage items for purchase on e-commerce websites.",
+        "category": "internet"
+    },
+    {
+        "question": "Augmented Reality",
+        "answer": "A technology that overlays digital information, such as images or data, onto the real world.",
+        "category": "internet"
+    },
+    {
+        "question": "VPN (Virtual Private Network)",
+        "answer": "A secure network connection that allows users to access the internet privately and securely.",
+        "category": "internet"
+    },
+    {
+        "question": "User Interface (UI)",
+        "answer": "The visual elements and design that users interact with on a website or application.",
+        "category": "internet"
+    },
+    {
+        "question": "User Experience (UX)",
+        "answer": "The overall experience and satisfaction a user has when interacting with a product or service.",
+        "category": "internet"
+    },
+    {
+        "question": "Crowdsourcing",
+        "answer": "Obtaining ideas, services, or content by soliciting contributions from a large group of people online.",
+        "category": "internet"
+    },
+    {
+        "question": "Encryption",
+        "answer": "The process of converting information into a code to secure and protect it from unauthorized access.",
+        "category": "internet"
+    },
+    {
+        "question": "Dark Web",
+        "answer": "A hidden part of the internet that requires special tools or software to access.",
+        "category": "internet"
+    },
+    {
+        "question": "Ransomware",
+        "answer": "Malicious software that encrypts a user's files or data and demands payment to unlock them.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Currency",
+        "answer": "Online-based currencies that utilize cryptography for secure transactions, such as Bitcoin.",
+        "category": "internet"
+    },
+    {
+        "question": "Web 2.0",
+        "answer": "The evolution of the web to emphasize user-generated content, collaboration, and interaction.",
+        "category": "internet"
+    },
+    {
+        "question": "Cache",
+        "answer": "A temporary storage location that stores frequently accessed data to improve performance.",
+        "category": "internet"
+    },
+    {
+        "question": "Malware",
+        "answer": "Malicious software designed to harm, disrupt, or gain unauthorized access to computer systems.",
+        "category": "internet"
+    },
+    {
+        "question": "Server",
+        "answer": "A computer or system that provides resources, data, or services to other computers on a network.",
+        "category": "internet"
+    },
+    {
+        "question": "DNS (Domain Name System)",
+        "answer": "A system that translates human-readable domain names into IP addresses used by computers.",
+        "category": "internet"
+    },
+    {
+        "question": "Download",
+        "answer": "The process of retrieving data, files, or content from a remote server to a local device.",
+        "category": "internet"
+    },
+    {
+        "question": "Upload",
+        "answer": "The process of sending data, files, or content from a local device to a remote server.",
+        "category": "internet"
+    },
+    {
+        "question": "Megabyte (MB)",
+        "answer": "A unit of digital information storage, equal to approximately one million bytes.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Forum",
+        "answer": "An online platform or community where users can engage in discussions and share information.",
+        "category": "internet"
+    },
+    {
+        "question": "Profile",
+        "answer": "An online representation of a user, containing personal information, preferences, and activities.",
+        "category": "internet"
+    },
+    {
+        "question": "Shareware",
+        "answer": "Software distributed on a trial basis with the option to purchase a full license.",
+        "category": "internet"
+    },
+    {
+        "question": "URL (Uniform Resource Locator)",
+        "answer": "A web address that specifies the location of a resource on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "World Wide Web",
+        "answer": "A system of interlinked hypertext documents and multimedia accessed via the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Blogging",
+        "answer": "The act of writing and publishing articles, posts, or content on a website.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Influencer",
+        "answer": "An individual with a significant online following and the ability to impact opinions and trends.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Payments",
+        "answer": "Electronic transactions conducted over the internet for goods or services.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Development",
+        "answer": "The process of creating and maintaining websites and web applications.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Learning",
+        "answer": "The use of internet technology to deliver educational content and courses.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Art",
+        "answer": "Artistic creations produced using digital technology, software, or tools.",
+        "category": "internet"
+    },
+    {
+        "question": "Cyberbullying",
+        "answer": "The use of digital communication to harass, threaten, or target individuals.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Auction",
+        "answer": "A platform on the internet where users can bid on and purchase items.",
+        "category": "internet"
+    },
+    {
+        "question": "E-book",
+        "answer": "A digital publication that can be read on electronic devices such as e-readers, tablets, or computers.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Browser",
+        "answer": "A software application used to access and navigate the World Wide Web.",
+        "category": "internet"
+    },
+    {
+        "question": "Internet of Things (IoT)",
+        "answer": "The network of interconnected devices and objects that can communicate and exchange data.",
+        "category": "internet"
+    },
+    {
+        "question": "Instant Messaging",
+        "answer": "Real-time text-based communication between individuals over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Collaboration",
+        "answer": "Working together on projects or tasks using internet-based tools and platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "Data Breach",
+        "answer": "The unauthorized access, release, or exposure of sensitive information.",
+        "category": "internet"
+    },
+    {
+        "question": "Emoji",
+        "answer": "Small digital icons used to convey emotions, concepts, or ideas in electronic communication.",
+        "category": "internet"
+    },
+    {
+        "question": "Cloud Storage",
+        "answer": "Storing and accessing data over the internet using remote servers and resources.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Nomad",
+        "answer": "An individual who uses digital technology to work remotely and live a location-independent lifestyle.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Dating",
+        "answer": "Using internet platforms and apps to meet and connect with potential romantic partners.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Sharing",
+        "answer": "The act of distributing and reposting content, articles, or media on social media platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Reputation",
+        "answer": "The perception and impression of an individual or entity based on their online presence.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Wallet",
+        "answer": "An electronic application or device that securely stores payment information for online transactions.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Traffic",
+        "answer": "The amount of data sent and received by visitors to a website.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Hosting Provider",
+        "answer": "A company that offers services and technologies for hosting websites on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Remote Work",
+        "answer": "Working from a location outside of the traditional office, often enabled by internet connectivity.",
+        "category": "internet"
+    },
+    {
+        "question": "E-commerce Platform",
+        "answer": "An online software application that facilitates the buying and selling of products or services.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Advertising",
+        "answer": "Promoting products, services, or content through paid advertisements on social media platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "Streaming Service",
+        "answer": "A platform that delivers multimedia content, such as music, video, or games, over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Reviews",
+        "answer": "Written assessments or feedback posted by users on the internet about products or services.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Page",
+        "answer": "A single hypertext document accessible through a web browser on the World Wide Web.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Engagement",
+        "answer": "Interactions and interactions between users and content on social media platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Portal",
+        "answer": "A website that serves as a gateway to various resources, services, or information on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Video Conferencing",
+        "answer": "Real-time audio and video communication between multiple participants over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Signature",
+        "answer": "An electronic signature used to authenticate the identity of a user or the origin of digital messages.",
+        "category": "internet"
+    },
+    {
+        "question": "User-generated Content",
+        "answer": "Content created and shared by users on online platforms, rather than by the platform itself.",
+        "category": "internet"
+    },
+    {
+        "question": "Netiquette",
+        "answer": "The etiquette and conventions for proper behavior and communication on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Survey",
+        "answer": "A questionnaire or set of questions distributed on the internet to gather information or opinions.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Citizenship",
+        "answer": "The responsible and ethical use of digital technologies and the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Development Framework",
+        "answer": "A pre-built software framework used to facilitate the development of web applications.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Accessibility",
+        "answer": "Designing websites and applications to be usable by people with disabilities.",
+        "category": "internet"
+    },
+    {
+        "question": "Cyber Attack",
+        "answer": "A deliberate and malicious attempt to breach the security of computer systems or networks.",
+        "category": "internet"
+    },
+    {
+        "question": "Internet Connectivity",
+        "answer": "The ability of devices to connect to and communicate over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Domain Extension",
+        "answer": "The last part of a domain name, indicating the type or origin of the website.",
+        "category": "internet"
+    },
+    {
+        "question": "E-commerce Marketplace",
+        "answer": "An online platform where multiple sellers can offer their products or services.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Algorithm",
+        "answer": "A set of rules used by social media platforms to determine the content shown to users.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Chat",
+        "answer": "Real-time text-based communication between users over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Accessibility Guidelines",
+        "answer": "Recommendations and standards for designing and creating accessible websites and content.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Literacy",
+        "answer": "The ability to use digital tools and technology to access, understand, and create information.",
+        "category": "internet"
+    },
+    {
+        "question": "E-commerce Payment Gateway",
+        "answer": "An online service that facilitates secure electronic payments for online transactions.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Profile",
+        "answer": "An online identity and representation of an individual or entity on a social media platform.",
+        "category": "internet"
+    },
+    {
+        "question": "Internet Browser Extension",
+        "answer": "A software module that adds functionality and features to a web browser.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Server",
+        "answer": "A computer or software system that stores and delivers web content to users over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Internet Troll",
+        "answer": "An individual who posts disruptive or offensive content to provoke reactions in online communities.",
+        "category": "internet"
+    },
+    {
+        "question": "FAQ (Frequently Asked Questions)",
+        "answer": "A list of common questions and answers about a particular topic or service.",
+        "category": "internet"
+    },
+    {
+        "question": "Hashtag",
+        "answer": "A metadata tag often used on social media platforms to categorize and group related content.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Analytics",
+        "answer": "The collection, measurement, analysis, and reporting of web data to understand and optimize usage.",
+        "category": "internet"
+    },
+    {
+        "question": "Spam Filter",
+        "answer": "A software tool that identifies and blocks unsolicited or unwanted email messages.",
+        "category": "internet"
+    },
+    {
+        "question": "RSS (Really Simple Syndication)",
+        "answer": "A format used to distribute and deliver regularly updated web content, such as news articles.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Influencer",
+        "answer": "An individual with a substantial online following and the ability to impact opinions and trends.",
+        "category": "internet"
+    },
+    {
+        "question": "QR Code (Quick Response Code)",
+        "answer": "A two-dimensional barcode used to store information that can be quickly read by a mobile device.",
+        "category": "internet"
+    },
+    {
+        "question": "SaaS (Software as a Service)",
+        "answer": "A software distribution model in which applications are hosted and accessed over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Chatbot",
+        "answer": "An AI-powered program designed to simulate human conversation and assist users in interactions.",
+        "category": "internet"
+    },
+    {
+        "question": "Microblogging",
+        "answer": "The practice of posting brief, concise updates or messages on social media platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart)",
+        "answer": "A challenge-response test used todetermine whether the user is human or automated software.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Shopping Cart",
+        "answer": "A virtual cart or basket that users use to collect and manage items for online purchases.",
+        "category": "internet"
+    },
+    {
+        "question": "Augmented Reality",
+        "answer": "A technology that overlays digital content onto the physical world through devices like smartphones.",
+        "category": "internet"
+    },
+    {
+        "question": "VPN (Virtual Private Network)",
+        "answer": "A secure network connection that provides privacy and anonymity for users over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "User Interface (UI)",
+        "answer": "The visual elements and design that enable users to interact with digital devices and software.",
+        "category": "internet"
+    },
+    {
+        "question": "User Experience (UX)",
+        "answer": "The overall experience and satisfaction that users have while interacting with a product or service.",
+        "category": "internet"
+    },
+    {
+        "question": "Crowdsourcing",
+        "answer": "Obtaining ideas, content, or services by soliciting contributions from a large group of people, often online.",
+        "category": "internet"
+    },
+    {
+        "question": "Encryption",
+        "answer": "The process of converting information into a code to secure it from unauthorized access.",
+        "category": "internet"
+    },
+    {
+        "question": "Dark Web",
+        "answer": "A part of the internet that is intentionally hidden and requires special tools or software to access.",
+        "category": "internet"
+    },
+    {
+        "question": "Ransomware",
+        "answer": "Malicious software that encrypts a user's files and demands payment for their release.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Currency",
+        "answer": "An online-based form of currency that uses cryptography for secure transactions, such as Bitcoin.",
+        "category": "internet"
+    },
+    {
+        "question": "Web 2.0",
+        "answer": "The evolution of the web to emphasize user-generated content, interactivity, and collaboration.",
+        "category": "internet"
+    },
+    {
+        "question": "Cache",
+        "answer": "A temporary storage location that stores frequently accessed data to improve performance.",
+        "category": "internet"
+    },
+    {
+        "question": "Malware",
+        "answer": "Malicious software designed to harm, disrupt, or gain unauthorized access to computer systems.",
+        "category": "internet"
+    },
+    {
+        "question": "Server",
+        "answer": "A computer or system that provides resources, data, or services to other computers on a network.",
+        "category": "internet"
+    },
+    {
+        "question": "DNS (Domain Name System)",
+        "answer": "A system that translates human-readable domain names into IP addresses used by computers.",
+        "category": "internet"
+    },
+    {
+        "question": "Download",
+        "answer": "The process of retrieving data, files, or content from a remote server to a local device.",
+        "category": "internet"
+    },
+    {
+        "question": "Upload",
+        "answer": "The process of sending data, files, or content from a local device to a remote server.",
+        "category": "internet"
+    },
+    {
+        "question": "Megabyte (MB)",
+        "answer": "A unit of digital information storage, equal to approximately one million bytes.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Forum",
+        "answer": "An online platform or community where users can engage in discussions and share information.",
+        "category": "internet"
+    },
+    {
+        "question": "Profile",
+        "answer": "An online representation of a user, containing personal information, preferences, and activities.",
+        "category": "internet"
+    },
+    {
+        "question": "Shareware",
+        "answer": "Software distributed on a trial basis with the option to purchase a full license.",
+        "category": "internet"
+    },
+    {
+        "question": "URL (Uniform Resource Locator)",
+        "answer": "A web address that specifies the location of a resource on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "World Wide Web",
+        "answer": "A system of interlinked hypertext documents and multimedia accessed via the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Blogging",
+        "answer": "The act of writing and publishing articles, posts, or content on a website.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Influencer",
+        "answer": "An individual with a significant online following and the ability to impact opinions and trends.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Payments",
+        "answer": "Electronic transactions conducted over the internet for goods or services.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Development",
+        "answer": "The process of creating and maintaining websites and web applications.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Learning",
+        "answer": "The use of internet technology to deliver educational content and courses.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Art",
+        "answer": "Artistic creations produced using digital technology, software, or tools.",
+        "category": "internet"
+    },
+    {
+        "question": "Cyberbullying",
+        "answer": "The use of digital communication to harass, threaten, or target individuals.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Auction",
+        "answer": "A platform on the internet where users can bid on and purchase items.",
+        "category": "internet"
+    },
+    {
+        "question": "E-book",
+        "answer": "A digital publication that can be read on electronic devices such as e-readers, tablets, or computers.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Browser",
+        "answer": "A software application used to access and navigate the World Wide Web.",
+        "category": "internet"
+    },
+    {
+        "question": "Internet of Things (IoT)",
+        "answer": "The network of interconnected devices and objects that can communicate and exchange data.",
+        "category": "internet"
+    },
+    {
+        "question": "Instant Messaging",
+        "answer": "Real-time text-based communication between individuals over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Collaboration",
+        "answer": "Working together on projects or tasks using internet-based tools and platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "Data Breach",
+        "answer": "The unauthorized access, release, or exposure of sensitive information.",
+        "category": "internet"
+    },
+    {
+        "question": "Emoji",
+        "answer": "Small digital icons used to convey emotions, concepts, or ideas in electronic communication.",
+        "category": "internet"
+    },
+    {
+        "question": "Cloud Storage",
+        "answer": "Storing and accessing data over the internet using remote servers and resources.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Nomad",
+        "answer": "An individual who uses digital technology to work remotely and live a location-independent lifestyle.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Dating",
+        "answer": "Using internet platforms and apps to meet and connect with potential romantic partners.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Sharing",
+        "answer": "The act of distributing and reposting content, articles, or media on social media platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Reputation",
+        "answer": "The perception and impression of an individual or entity based on their online presence.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Wallet",
+        "answer": "An electronic application or device that securely stores payment information for online transactions.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Traffic",
+        "answer": "The amount of data sent and received by visitors to a website.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Hosting Provider",
+        "answer": "A company that offers services and technologies for hosting websites on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Remote Work",
+        "answer": "Working from a location outside of the traditional office, often enabled by internet connectivity.",
+        "category": "internet"
+    },
+    {
+        "question": "E-commerce Platform",
+        "answer": "An online software application that facilitates the buying and selling of products or services.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Advertising",
+        "answer": "Promoting products, services, or content through paid advertisements on social media platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "Streaming Service",
+        "answer": "A platform that delivers multimedia content, such as music, video, or games, over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Reviews",
+        "answer": "Written assessments or feedback posted by users on the internet about products or services.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Page",
+        "answer": "A single hypertext document accessible through a web browser on the World Wide Web.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Engagement",
+        "answer": "Interactions and interactions between users and content on social media platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Portal",
+        "answer": "A website that serves as a gateway to various resources, services, or information on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Video Conferencing",
+        "answer": "Real-time audio and video communication between multiple participants over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Signature",
+        "answer": "An electronic signature used to authenticate the identity of a user or the origin of digital messages.",
+        "category": "internet"
+    },
+    {
+        "question": "User-generated Content",
+        "answer": "Content created and shared by users on online platforms, rather than by the platform itself.",
+        "category": "internet"
+    },
+    {
+        "question": "Netiquette",
+        "answer": "The etiquette and conventions for proper behavior and communication on the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Survey",
+        "answer": "A questionnaire or set of questions distributed on the internet to gather information or opinions.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Citizenship",
+        "answer": "The responsible and ethical use of digital technologies and the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Development Framework",
+        "answer": "A pre-built software framework used to facilitate the development of web applications.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Accessibility",
+        "answer": "Designing websites and applications to be usable by people with disabilities.",
+        "category": "internet"
+    },
+    {
+        "question": "Cyber Attack",
+        "answer": "A deliberate and malicious attempt to breach the security of computer systems or networks.",
+        "category": "internet"
+    },
+    {
+        "question": "Internet Connectivity",
+        "answer": "The ability of devices to connect to and communicate over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Domain Extension",
+        "answer": "The last part of a domain name, indicating the type or origin of the website.",
+        "category": "internet"
+    },
+    {
+        "question": "E-commerce Marketplace",
+        "answer": "An online platform where multiple sellers can offer their products or services.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Algorithm",
+        "answer": "A set of rules used by social media platforms to determine the content shown to users.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Chat",
+        "answer": "Real-time text-based communication between users over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Accessibility Guidelines",
+        "answer": "Recommendations and standards for designing and creating accessible websites and content.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Literacy",
+        "answer": "The ability to use digital tools and technology to access, understand, and create information.",
+        "category": "internet"
+    },
+    {
+        "question": "E-commerce Payment Gateway",
+        "answer": "An online service that facilitates secure electronic payments for online transactions.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Media Profile",
+        "answer": "An online identity and representation of an individual or entity on a social media platform.",
+        "category": "internet"
+    },
+    {
+        "question": "Internet Browser Extension",
+        "answer": "A software module that adds functionality and features to a web browser.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Server",
+        "answer": "A computer or software system that stores and delivers web content to users over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Internet Troll",
+        "answer": "An individual who posts disruptive or offensive content to provoke reactions in online communities.",
+        "category": "internet"
+    },
+    {
+        "question": "FAQ (Frequently Asked Questions)",
+        "answer": "A list of common questions and answers about a particular topic or service.",
+        "category": "internet"
+    },
+    {
+        "question": "Hashtag",
+        "answer": "A metadata tag often used on social media platforms to categorize and group relatedcontent.",
+        "category": "internet"
+    },
+    {
+        "question": "Web Analytics",
+        "answer": "The collection, measurement, analysis, and reporting of web data to understand and optimize usage.",
+        "category": "internet"
+    },
+    {
+        "question": "Spam Filter",
+        "answer": "A software tool that identifies and blocks unsolicited or unwanted email messages.",
+        "category": "internet"
+    },
+    {
+        "question": "RSS (Really Simple Syndication)",
+        "answer": "A format used to distribute and deliver regularly updated web content, such as news articles.",
+        "category": "internet"
+    },
+    {
+        "question": "Social Influencer",
+        "answer": "An individual with a substantial online following and the ability to impact opinions and trends.",
+        "category": "internet"
+    },
+    {
+        "question": "QR Code (Quick Response Code)",
+        "answer": "A two-dimensional barcode used to store information that can be quickly read by a mobile device.",
+        "category": "internet"
+    },
+    {
+        "question": "SaaS (Software as a Service)",
+        "answer": "A software distribution model in which applications are hosted and accessed over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "Chatbot",
+        "answer": "An AI-powered program designed to simulate human conversation and assist users in interactions.",
+        "category": "internet"
+    },
+    {
+        "question": "Microblogging",
+        "answer": "The practice of posting brief, concise updates or messages on social media platforms.",
+        "category": "internet"
+    },
+    {
+        "question": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart)",
+        "answer": "A challenge-response test used to determine whether the user is human or automated software.",
+        "category": "internet"
+    },
+    {
+        "question": "Online Shopping Cart",
+        "answer": "A virtual cart or basket that users use to collect and manage items for online purchases.",
+        "category": "internet"
+    },
+    {
+        "question": "Augmented Reality",
+        "answer": "A technology that overlays digital content onto the physical world through devices like smartphones.",
+        "category": "internet"
+    },
+    {
+        "question": "VPN (Virtual Private Network)",
+        "answer": "A secure network connection that provides privacy and anonymity for users over the internet.",
+        "category": "internet"
+    },
+    {
+        "question": "User Interface (UI)",
+        "answer": "The visual elements and design that enable users to interact with digital devices and software.",
+        "category": "internet"
+    },
+    {
+        "question": "User Experience (UX)",
+        "answer": "The overall experience and satisfaction that users have while interacting with a product or service.",
+        "category": "internet"
+    },
+    {
+        "question": "Crowdsourcing",
+        "answer": "Obtaining ideas, content, or services by soliciting contributions from a large group of people, often online.",
+        "category": "internet"
+    },
+    {
+        "question": "Encryption",
+        "answer": "The process of converting information into a code to secure it from unauthorized access.",
+        "category": "internet"
+    },
+    {
+        "question": "Dark Web",
+        "answer": "A part of the internet that is intentionally hidden and requires special tools or software to access.",
+        "category": "internet"
+    },
+    {
+        "question": "Ransomware",
+        "answer": "Malicious software that encrypts a user's files and demands payment for their release.",
+        "category": "internet"
+    },
+    {
+        "question": "Digital Currency",
+        "answer": "An online-based form of currency that uses cryptography for secure transactions, such as Bitcoin.",
+        "category": "internet"
+    },
+    {
+        "question": "Web 2.0",
+        "answer": "The evolution of the web to emphasize user-generated content, interactivity, and collaboration.",
+        "category": "internet"
+    },
+    {
+        "question": "Penetration Testing",
+        "answer": "Simulating cyberattacks on systems to identify vulnerabilities and weaknesses.",
+        "category": "ethical"
+    },
+    {
+        "question": "Vulnerability Assessment",
+        "answer": "Identifying and evaluating vulnerabilities in software or systems to prevent exploitation.",
+        "category": "ethical"
+    },
+    {
+        "question": "Zero-Day Exploit",
+        "answer": "A security vulnerability in software exploited by hackers before it is patched.",
+        "category": "ethical"
+    },
+    {
+        "question": "Social Engineering",
+        "answer": "Manipulating individuals into divulging confidential information or performing actions.",
+        "category": "ethical"
+    },
+    {
+        "question": "Phishing",
+        "answer": "Sending deceptive emails to trick recipients into revealing sensitive information.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malware",
+        "answer": "Malicious software designed to harm or gain unauthorized access to systems.",
+        "category": "ethical"
+    },
+    {
+        "question": "Trojan Horse",
+        "answer": "A type of malware disguised as a legitimate program to deceive users.",
+        "category": "ethical"
+    },
+    {
+        "question": "Ransomware",
+        "answer": "Malware that encrypts files and demands a ransom for their release.",
+        "category": "ethical"
+    },
+    {
+        "question": "Rootkit",
+        "answer": "Malicious software that provides unauthorized access while hiding its presence.",
+        "category": "ethical"
+    },
+    {
+        "question": "Spyware",
+        "answer": "Software that secretly gathers information about a user's activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Keylogger",
+        "answer": "Software that records keystrokes to capture sensitive information like passwords.",
+        "category": "ethical"
+    },
+    {
+        "question": "Brute Force Attack",
+        "answer": "Repeatedly trying all possible combinations to guess a password or encryption key.",
+        "category": "ethical"
+    },
+    {
+        "question": "Dictionary Attack",
+        "answer": "Using a list of common words to guess passwords or encryption keys.",
+        "category": "ethical"
+    },
+    {
+        "question": "Rainbow Table Attack",
+        "answer": "Precomputed tables to crack password hashes quickly.",
+        "category": "ethical"
+    },
+    {
+        "question": "Man-in-the-Middle Attack",
+        "answer": "Intercepting communication between two parties to eavesdrop or alter data.",
+        "category": "ethical"
+    },
+    {
+        "question": "Denial-of-Service (DoS) Attack",
+        "answer": "Overwhelming a system to make it unavailable to users.",
+        "category": "ethical"
+    },
+    {
+        "question": "Distributed DoS (DDoS) Attack",
+        "answer": "Coordinating multiple systems to launch a DoS attack.",
+        "category": "ethical"
+    },
+    {
+        "question": "Buffer Overflow",
+        "answer": "Overloading a buffer in a program to execute arbitrary code.",
+        "category": "ethical"
+    },
+    {
+        "question": "SQL Injection",
+        "answer": "Injecting malicious SQL queries into input fields to manipulate a database.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cross-Site Scripting (XSS)",
+        "answer": "Injecting malicious scripts into web applications viewed by other users.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cross-Site Request Forgery (CSRF)",
+        "answer": "Tricking a user into unknowingly performing actions on a different site.",
+        "category": "ethical"
+    },
+    {
+        "question": "Session Hijacking",
+        "answer": "Stealing an active user's session to gain unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Ethical ethical",
+        "answer": "Authorized ethical to identify and fix vulnerabilities, ensuring security.",
+        "category": "ethical"
+    },
+    {
+        "question": "White Hat Hacker",
+        "answer": "Ethical hackers who work to improve system security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Black Hat Hacker",
+        "answer": "Malicious hackers who exploit vulnerabilities for personal gain.",
+        "category": "ethical"
+    },
+    {
+        "question": "Gray Hat Hacker",
+        "answer": "Hackers who operate between ethical and malicious ethical.",
+        "category": "ethical"
+    },
+    {
+        "question": "Red Team",
+        "answer": "A group that simulates attacks to identify vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Blue Team",
+        "answer": "A group that defends against cyberattacks and strengthens security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Bug Bounty Program",
+        "answer": "Rewards offered for finding and reporting software vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Exploit",
+        "answer": "Taking advantage of a vulnerability to gain unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Payload",
+        "answer": "Malicious code executed after exploiting a vulnerability.",
+        "category": "ethical"
+    },
+    {
+        "question": "Metasploit Framework",
+        "answer": "An open-source tool for developing and executing exploit code.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Sniffing",
+        "answer": "Monitoring network traffic to capture sensitive data.",
+        "category": "ethical"
+    },
+    {
+        "question": "Firewall",
+        "answer": "A network security device that monitors and filters incoming/outgoing traffic.",
+        "category": "ethical"
+    },
+    {
+        "question": "Intrusion Detection System (IDS)",
+        "answer": "Software/hardware that detects unauthorized access or malicious activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Intrusion Prevention System (IPS)",
+        "answer": "Software/hardware that actively blocks or prevents unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Honeypot",
+        "answer": "A decoy system used to lure attackers and gather information.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cryptography",
+        "answer": "Techniques to secure communication by converting data into a unreadable format.",
+        "category": "ethical"
+    },
+    {
+        "question": "Public Key Infrastructure (PKI)",
+        "answer": "A framework for managing digital keys and certificates.",
+        "category": "ethical"
+    },
+    {
+        "question": "SSL/TLS",
+        "answer": "Protocols to establish secure connections over the internet.",
+        "category": "ethical"
+    },
+    {
+        "question": "Key Exchange",
+        "answer": "Securely transmitting encryption keys between parties.",
+        "category": "ethical"
+    },
+    {
+        "question": "Hashing",
+        "answer": "Converting data into fixed-size values to verify data integrity.",
+        "category": "ethical"
+    },
+    {
+        "question": "Salting",
+        "answer": "Adding random data to passwords before hashing to increase security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Security",
+        "answer": "Protecting a network infrastructure from unauthorized access and threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Endpoint Security",
+        "answer": "Securing devices (endpoints) like computers, smartphones from cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Patch Management",
+        "answer": "Regularly updating software to fix vulnerabilities and improve security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Encryption Algorithms",
+        "answer": "Mathematical procedures for securing data through encryption.",
+        "category": "ethical"
+    },
+    {
+        "question": "Decryption",
+        "answer": "Reverting encrypted data back to its original form.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Coding",
+        "answer": "Writing code that is resilient to security vulnerabilities and attacks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Assessment",
+        "answer": "Evaluating a system's security to identify risks and vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Root Access",
+        "answer": "Full administrative access to a system or device.",
+        "category": "ethical"
+    },
+    {
+        "question": "Fuzz Testing",
+        "answer": "Inputting random or malformed data to identify vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Socket Layer (SSL)",
+        "answer": "Cryptographic protocol that provides secure communication over a network.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Shell (SSH)",
+        "answer": "Cryptographic network protocol for secure remote access to systems.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Segmentation",
+        "answer": "Dividing a network into segments to limit the spread of attacks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Wireless Security",
+        "answer": "Securing wireless networks from unauthorized access and attacks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Monitoring",
+        "answer": "Continuous monitoring of network traffic for security and performance.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cyber Threat Intelligence",
+        "answer": "Information about potential and current cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Incident",
+        "answer": "An event that indicates a potential security breach.",
+        "category": "ethical"
+    },
+    {
+        "question": "Incident Response Plan",
+        "answer": "A documented strategy for addressing and managing security incidents.",
+        "category": "ethical"
+    },
+    {
+        "question": "CISO (Chief Information Security Officer)",
+        "answer": "The senior executive responsible for an organization's information security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Patch Tuesday",
+        "answer": "The second Tuesday of each month when software updates are released.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Access Control (NAC)",
+        "answer": "Technology to manage and secure network access based on policies.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Assessment",
+        "answer": "Evaluating a system's security to identify vulnerabilities and risks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malware Analysis",
+        "answer": "Examining malware to understand its behavior, functionality, and impact.",
+        "category": "ethical"
+    },
+    {
+        "question": "Threat Modeling",
+        "answer": "Identifying potential threats and vulnerabilities in a system.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Development Lifecycle (SDL)",
+        "answer": "Incorporating security practices throughout the software development process.",
+        "category": "ethical"
+    },
+    {
+        "question": "Hacker",
+        "answer": "An individual with advanced computer skills who explores and exploits vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Payload",
+        "answer": "The malicious code or action delivered after exploiting a vulnerability.",
+        "category": "ethical"
+    },
+    {
+        "question": "Exploit Kit",
+        "answer": "A toolkit that automates the process of finding and exploiting vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Digital Forensics",
+        "answer": "Investigating digital devices to gather evidence for legal purposes.",
+        "category": "ethical"
+    },
+    {
+        "question": "Intrusion Detection System (IDS)",
+        "answer": "Software/hardware that monitors network traffic for suspicious activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Awareness Training",
+        "answer": "Educating individuals on security risks and best practices.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malware",
+        "answer": "Malicious software designed to compromise, damage, or gain unauthorized access to systems.",
+        "category": "ethical"
+    },
+    {
+        "question": "Rootkit",
+        "answer": "A type of malware that grants unauthorized control over a system.",
+        "category": "ethical"
+    },
+    {
+        "question": "Backdoor",
+        "answer": "A hidden entry point to a system, allowing unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Botnet",
+        "answer": "A network of compromised computers used for malicious activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Proxy Server",
+        "answer": "An intermediary server that acts as a gateway between users and the internet.",
+        "category": "ethical"
+    },
+    {
+        "question": "Anonymity",
+        "answer": "Concealing one's identity and online activities for privacy and security.",
+        "category": "ethical"
+    },
+    {
+        "question": "VPN (Virtual Private Network)",
+        "answer": "A secure network connection that provides anonymity and privacy online.",
+        "category": "ethical"
+    },
+    {
+        "question": "TOR (The Onion Router)",
+        "answer": "A network that anonymizes internet traffic and access to websites.",
+    "category": "ethical"
+    },
+    {
+        "question": "Cryptography",
+        "answer": "The practice of securing communication through codes and ciphers.",
+        "category": "ethical"
+    },
+    {
+        "question": "Public Key Infrastructure (PKI)",
+        "answer": "A system for managing digital keys and certificates.",
+        "category": "ethical"
+    },
+    {
+        "question": "SSL/TLS",
+        "answer": "Protocols for secure communication over the internet.",
+        "category": "ethical"
+    },
+    {
+        "question": "Firewall",
+        "answer": "A network security device that filters incoming and outgoing traffic.",
+        "category": "ethical"
+    },
+    {
+        "question": "IDS (Intrusion Detection System)",
+        "answer": "Software/hardware that detects unauthorized access or activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "IPS (Intrusion Prevention System)",
+        "answer": "Software/hardware that actively blocks unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Honeypot",
+        "answer": "A decoy system used to detect and gather information about attackers.",
+        "category": "ethical"
+    },
+    {
+        "question": "Denial-of-Service (DoS) Attack",
+        "answer": "Overloading a system to disrupt its normal functioning.",
+        "category": "ethical"
+    },
+    {
+        "question": "DDoS (Distributed DoS) Attack",
+        "answer": "Using multiple systems to launch a DoS attack.",
+        "category": "ethical"
+    },
+    {
+        "question": "Botnet",
+        "answer": "A collection of compromised computers used to carry out attacks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Ransomware",
+        "answer": "Malware that encrypts files and demands a ransom for decryption.",
+        "category": "ethical"
+    },
+    {
+        "question": "Phishing",
+        "answer": "Sending deceptive emails to trick users into revealing information.",
+        "category": "ethical"
+    },
+    {
+        "question": "Spear Phishing",
+        "answer": "Targeted phishing attacks focused on specific individuals.",
+        "category": "ethical"
+    },
+    {
+        "question": "Social Engineering",
+        "answer": "Manipulating individuals to gain unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malvertising",
+        "answer": "Using online ads to deliver malware to users.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cryptojacking",
+        "answer": "Illegally using a victim's computer to mine cryptocurrency.",
+        "category": "ethical"
+    },
+    {
+        "question": "Exploit Kit",
+        "answer": "Software used to automate the process of exploiting vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Zero-Day Exploit",
+        "answer": "An exploit targeting a vulnerability before it's publicly known.",
+        "category": "ethical"
+    },
+    {
+        "question": "Vulnerability Disclosure",
+        "answer": "Reporting security vulnerabilities to the responsible party.",
+        "category": "ethical"
+    },
+    {
+        "question": "Bug Bounty Program",
+        "answer": "Rewards for finding and responsibly disclosing software vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Gray Hat Hacker",
+        "answer": "Hackers with mixed intentions, sometimes ethical and sometimes malicious.",
+        "category": "ethical"
+    },
+    {
+        "question": "Black Hat Hacker",
+        "answer": "Malicious hackers who exploit vulnerabilities for personal gain.",
+        "category": "ethical"
+    },
+    {
+        "question": "White Hat Hacker",
+        "answer": "Ethical hackers who work to improve system security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Red Team",
+        "answer": "A group that simulates attacks to identify vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Blue Team",
+        "answer": "A group that defends against cyberattacks and strengthens security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cybersecurity",
+        "answer": "Practices and measures to protect digital systems and data.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Patch",
+        "answer": "Updates to fix vulnerabilities and improve software security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Two-Factor Authentication (2FA)",
+        "answer": "Using two methods to verify identity, enhancing security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Multi-Factor Authentication (MFA)",
+        "answer": "Using multiple methods to verify identity, adding extra layers of security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Biometric Authentication",
+        "answer": "Using unique biological traits like fingerprints for authentication.",
+        "category": "ethical"
+    },
+    {
+        "question": "Password Manager",
+        "answer": "Software that securely stores and manages passwords.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Awareness",
+        "answer": "Education and training to increase awareness of security risks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Code",
+        "answer": "Writing code that is resistant to security vulnerabilities and attacks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cryptocurrency Security",
+        "answer": "Securing digital currencies against theft and ethical.",
+        "category": "ethical"
+    },
+    {
+        "question": "Blockchain Security",
+        "answer": "Ensuring the security and integrity of blockchain networks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Privacy",
+        "answer": "Protecting personal information from unauthorized access and disclosure.",
+        "category": "ethical"
+    },
+    {
+        "question": "Anonymity",
+        "answer": "Concealing one's identity and activities for privacy.",
+        "category": "ethical"
+    },
+    {
+        "question": "Virtual Private Network (VPN)",
+        "answer": "A secure network connection that provides anonymity and privacy.",
+        "category": "ethical"
+    },
+    {
+        "question": "TOR (The Onion Router)",
+        "answer": "A network that anonymizes internet traffic and access.",
+        "category": "ethical"
+    },
+    {
+        "question": "End-to-End Encryption",
+        "answer": "Secure communication where only sender and recipient can access content.",
+        "category": "ethical"
+    },
+    {
+        "question": "Data Breach",
+        "answer": "Unauthorized access and release of sensitive data.",
+        "category": "ethical"
+    },
+    {
+        "question": "Incident Response",
+        "answer": "A coordinated approach to addressing and managing security incidents.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Policy",
+        "answer": "A set of rules and guidelines for ensuring security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Threat Intelligence",
+        "answer": "Information about potential and current cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Encryption Key",
+        "answer": "A code used to encrypt and decrypt data.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malware",
+        "answer": "Malicious software designed to harm or gain unauthorized access to systems.",
+        "category": "ethical"
+    },
+    {
+        "question": "Virus",
+        "answer": "A type of malware that spreads and infects other programs.",
+        "category": "ethical"
+    },
+    {
+        "question": "Worm",
+        "answer": "A self-replicating malware that spreads across networks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Ransomware",
+        "answer": "Malware that encrypts files and demands payment for decryption.",
+        "category": "ethical"
+    },
+    {
+        "question": "Spyware",
+        "answer": "Software that secretly gathers information about a user.",
+        "category": "ethical"
+    },
+    {
+        "question": "Adware",
+        "answer": "Software that displays unwanted ads to users.",
+        "category": "ethical"
+    },
+    {
+        "question": "Rootkit",
+        "answer": "Malware that provides unauthorized access while hiding its presence.",
+        "category": "ethical"
+    },
+    {
+        "question": "Keylogger",
+        "answer": "Software that records keystrokes to capture sensitive information.",
+        "category": "ethical"
+    },
+    {
+        "question": "Botnet",
+        "answer": "A network of compromised computers used for malicious activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "IoT (Internet of Things) Security",
+        "answer": "Securing internet-connected devices from cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Ethical ethical",
+        "answer": "Authorized ethical to identify and fix vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Audit",
+        "answer": "Assessment of a system's security to identify weaknesses.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Password",
+        "answer": "A strong and complex password that enhances security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Patch Management",
+        "answer": "Regularly updating software to fix vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Brute Force Attack",
+        "answer": "Repeatedly trying all possible combinations to guess a password.",
+        "category": "ethical"
+    },
+    {
+        "question": "Dictionary Attack",
+        "answer": "Using a list of common words to guess passwords.",
+        "category": "ethical"
+    },
+    {
+        "question": "Rainbow Table Attack",
+        "answer": "Using precomputed tables to crack password hashes.",
+        "category": "ethical"
+    },
+    {
+        "question": "Phishing",
+        "answer": "Sending deceptive emails to trick users into revealing information.",
+        "category": "ethical"
+    },
+    {
+        "question": "Spear Phishing",
+        "answer": "Targeted phishing attacks focused on specific individuals.",
+        "category": "ethical"
+    },
+    {
+        "question": "Whaling",
+        "answer": "Spear phishing targeting high-profile individuals.",
+        "category": "ethical"
+    },
+    {
+        "question": "Ransomware",
+        "answer": "Malware that encrypts files and demands payment for decryption.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cryptojacking",
+        "answer": "Using a victim's computer to mine cryptocurrency.",
+        "category": "ethical"
+    },
+    {
+        "question": "Botnet",
+        "answer": "A network of compromised computers used for malicious activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Keylogger",
+        "answer": "Software that records keystrokes to capture sensitive information.",
+        "category": "ethical"
+    },
+    {
+        "question": "Rootkit",
+        "answer": "Malware that provides unauthorized access while hiding its presence.",
+        "category": "ethical"
+    },
+    {
+        "question": "Backdoor",
+        "answer": "A hidden entry point to a system, allowing unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Exploit Kit",
+        "answer": "Software used to automate the process of exploiting vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Zero-Day Exploit",
+        "answer": "An exploit targeting a vulnerability before it's publicly known.",
+        "category": "ethical"
+    },
+    {
+        "question": "Vulnerability",
+        "answer": "A weakness in a system that can be exploited by attackers.",
+        "category": "ethical"
+    },
+    {
+        "question": "Payload",
+        "answer": "Malicious code delivered after exploiting a vulnerability.",
+        "category": "ethical"
+    },
+    {
+        "question": "Metasploit Framework",
+        "answer": "An open-source tool for developing and executing exploit code.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Sniffing",
+        "answer": "Monitoring network traffic to capture sensitive data.",
+        "category": "ethical"
+    },
+    {
+        "question": "Firewall",
+        "answer": "A network security device that monitors and filters traffic.",
+        "category": "ethical"
+    },
+    {
+        "question": "Intrusion Detection System (IDS)",
+        "answer": "Software/hardware that detects unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Intrusion Prevention System (IPS)",
+        "answer": "Software/hardware that actively blocks unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Honeypot",
+        "answer": "A decoy system used to lure attackers and gather information.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cryptography",
+        "answer": "Techniques to secure communication through codes and ciphers.",
+        "category": "ethical"
+    },
+    {
+        "question": "Public Key Infrastructure (PKI)",
+        "answer": "A system for managing digital keys and certificates.",
+        "category": "ethical"
+    },
+    {
+        "question": "SSL/TLS",
+        "answer": "Protocols for secure communication over the internet.",
+        "category": "ethical"
+    },
+    {
+        "question": "Key Exchange",
+        "answer": "Securely transmitting encryption keys between parties.",
+        "category": "ethical"
+    },
+    {
+        "question": "Hashing",
+        "answer": "Converting data into fixed-size values for data integrity.",
+        "category": "ethical"
+    },
+    {
+        "question": "Salting",
+        "answer": "Adding random data to passwords before hashing.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Security",
+        "answer": "Protecting a network from unauthorized access and threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Endpoint Security",
+        "answer": "Securing devices from cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Patch Management",
+        "answer": "Regularly updating software to fix vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Coding",
+        "answer": "Writing code resilient to security vulnerabilities and attacks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Assessment",
+        "answer": "Evaluating a system's security for vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Root Access",
+        "answer": "Full administrative access to a system or device.",
+        "category": "ethical"
+    },
+    {
+        "question": "Fuzz Testing",
+        "answer": "Inputting random data to find vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Socket Layer (SSL)",
+        "answer": "Cryptographic protocol for secure communication.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Shell (SSH)",
+        "answer": "Cryptographic protocol for secure remote access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Segmentation",
+        "answer": "Dividing a network to limit the spread of attacks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Wireless Security",
+        "answer": "Securing wireless networks from unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Monitoring",
+        "answer": "Continuous monitoring of network traffic for security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cyber Threat Intelligence",
+        "answer": "Information about potential and current cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Incident",
+        "answer": "An event indicating a potential security breach.",
+        "category": "ethical"
+    },
+    {
+        "question": "Incident Response Plan",
+        "answer": "A strategy for addressing and managing security incidents.",
+        "category": "ethical"
+    },
+    {
+        "question": "CISO (Chief Information Security Officer)",
+        "answer": "The senior executive responsible for information security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Patch Tuesday",
+        "answer": "The second Tuesday of each month for software updates.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Access Control (NAC)",
+        "answer": "Managing and securing network access based on policies.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Assessment",
+        "answer": "Evaluating a system's security for vulnerabilities and risks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malware Analysis",
+        "answer": "Examining malware behavior, functionality, and impact.",
+        "category": "ethical"
+    },
+    {
+        "question": "Threat Modeling",
+        "answer": "Identifying potential threats and vulnerabilities in a system.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Development Lifecycle (SDL)",
+        "answer": "Incorporating security practices in software development.",
+        "category": "ethical"
+    },
+    {
+        "question": "Hacker",
+        "answer": "An individual with advanced computer skills.",
+        "category": "ethical"
+    },
+    {
+        "question": "Payload",
+        "answer": "Malicious code or action delivered after exploiting a vulnerability.",
+        "category": "ethical"
+    },
+    {
+        "question": "Exploit Kit",
+        "answer": "A toolkit for finding and exploiting vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Digital Forensics",
+        "answer": "Investigating digital devices for legal evidence.",
+        "category": "ethical"
+    },
+    {
+        "question": "IDS (Intrusion Detection System)",
+        "answer": "Detects unauthorized access or activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Awareness Training",
+        "answer": "Educating individuals on security risks and best practices.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malware",
+        "answer": "Malicious software that compromises or damages systems.",
+        "category": "ethical"
+    },
+    {
+        "question": "Rootkit",
+        "answer": "Malware that provides unauthorized access while hiding.",
+        "category": "ethical"
+    },
+    {
+        "question": "Backdoor",
+        "answer": "A hidden access point to a system.",
+        "category": "ethical"
+    },
+    {
+        "question": "Botnet",
+        "answer": "A network of compromised computers used for malicious activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Proxy Server",
+        "answer": "Intermediary server between users and the internet.",
+        "category": "ethical"
+    },
+    {
+        "question": "Anonymity",
+        "answer": "Concealing identity and online activities for privacy.",
+        "category": "ethical"
+    },
+    {
+        "question": "VPN (Virtual Private Network)",
+        "answer": "Secure network connection providing anonymity and privacy.",
+        "category": "ethical"
+    },
+    {
+        "question": "TOR (The Onion Router)",
+        "answer": "Anonymizing internet traffic and access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cryptography",
+        "answer": "Securing communication through codes and ciphers.",
+        "category": "ethical"
+    },
+    {
+        "question": "Public Key Infrastructure (PKI)",
+        "answer": "Managing digital keys and certificates.",
+        "category": "ethical"
+    },
+    {
+        "question": "SSL/TLS",
+        "answer": "Protocols for secure communication.",
+        "category": "ethical"
+    },
+    {
+        "question": "Key Exchange",
+        "answer": "Securely transmitting encryption keys.",
+        "category": "ethical"
+    },
+    {
+        "question": "Hashing",
+        "answer": "Converting data into fixed-size values for data integrity.",
+        "category": "ethical"
+    },
+    {
+        "question": "Salting",
+        "answer": "Adding random data to passwords before hashing.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Security",
+        "answer": "Protecting a network from unauthorized access and threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Endpoint Security",
+        "answer": "Securing devices from cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Patch Management",
+        "answer": "Regularly updating software to fix vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Coding",
+        "answer": "Writing code resilient to security vulnerabilities and attacks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Assessment",
+        "answer": "Evaluating a system's security for vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Root Access",
+        "answer": "Full administrative access to a system or device.",
+        "category": "ethical"
+    },
+    {
+        "question": "Fuzz Testing",
+        "answer": "Inputting random data to find vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Socket Layer (SSL)",
+        "answer": "Cryptographic protocol for secure communication.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Shell (SSH)",
+        "answer": "Cryptographic protocol for secure remote access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Segmentation",
+        "answer": "Dividing a network to limit the spread of attacks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Wireless Security",
+        "answer": "Securing wireless networks from unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Monitoring",
+        "answer": "Continuous monitoring of network traffic for security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cyber Threat Intelligence",
+        "answer": "Information about potential and current cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Incident",
+        "answer": "An event indicating a potential security breach.",
+        "category": "ethical"
+    },
+    {
+        "question": "Incident Response Plan",
+        "answer": "A strategy for addressing and managing security incidents.",
+        "category": "ethical"
+    },
+    {
+        "question": "CISO (Chief Information Security Officer)",
+        "answer": "The senior executive responsible for information security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Patch Tuesday",
+        "answer": "The second Tuesday of each month for software updates.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Access Control (NAC)",
+        "answer": "Managing and securing network access based on policies.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Assessment",
+        "answer": "Evaluating a system's security for vulnerabilities and risks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malware Analysis",
+        "answer": "Examining malware behavior, functionality, and impact.",
+        "category": "ethical"
+    },
+    {
+        "question": "Threat Modeling",
+        "answer": "Identifying potential threats and vulnerabilities in a system.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Development Lifecycle (SDL)",
+        "answer": "Incorporating security practices in software development.",
+        "category": "ethical"
+    },
+    {
+        "question": "Hacker",
+        "answer": "An individual with advanced computer skills.",
+        "category": "ethical"
+    },
+    {
+        "question": "Payload",
+        "answer": "Malicious code or action delivered after exploiting a vulnerability.",
+        "category": "ethical"
+    },
+    {
+        "question": "Exploit Kit",
+        "answer": "A toolkit for finding and exploiting vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Digital Forensics",
+        "answer": "Investigating digital devices for legal evidence.",
+        "category": "ethical"
+    },
+    {
+        "question": "IDS (Intrusion Detection System)",
+        "answer": "Detects unauthorized access or activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Awareness Training",
+        "answer": "Educating individuals on security risks and best practices.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malware",
+        "answer": "Malicious software that compromises or damages systems.",
+        "category": "ethical"
+    },
+    {
+        "question": "Rootkit",
+        "answer": "Malware that provides unauthorized access while hiding.",
+        "category": "ethical"
+    },
+    {
+        "question": "Backdoor",
+        "answer": "A hidden access point to a system.",
+        "category": "ethical"
+    },
+    {
+        "question": "Botnet",
+        "answer": "A network of compromised computers used for malicious activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Proxy Server",
+        "answer": "Intermediary server between users and the internet.",
+        "category": "ethical"
+    },
+    {
+        "question": "Anonymity",
+        "answer": "Concealing identity and online activities for privacy.",
+        "category": "ethical"
+    },
+    {
+        "question": "VPN (Virtual Private Network)",
+        "answer": "Secure network connection providing anonymity and privacy.",
+        "category": "ethical"
+    },
+    {
+        "question": "TOR (The Onion Router)",
+        "answer": "Anonymizing internet traffic and access.",
+        "category": "ethical"
+    },
+    {
+        "question": "End-to-End Encryption",
+        "answer": "Secure communication where only sender and recipient can access content.",
+        "category": "ethical"
+    },
+    {
+        "question": "Data Breach",
+        "answer": "Unauthorized access and release of sensitive data.",
+        "category": "ethical"
+    },
+    {
+        "question": "Incident Response",
+        "answer": "Coordinated approach to addressing and managing security incidents.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Policy",
+        "answer": "A set of rules and guidelines for ensuring security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Threat Intelligence",
+        "answer": "Information about potential and current cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Encryption Key",
+        "answer": "A code used to encrypt and decrypt data.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malware",
+        "answer": "Malicious software that compromises or damages systems.",
+        "category": "ethical"
+    },
+    {
+        "question": "Virus",
+        "answer": "A type of malware that spreads and infects other programs.",
+        "category": "ethical"
+    },
+    {
+        "question": "Worm",
+        "answer": "A self-replicating malware that spreads across networks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Ransomware",
+        "answer": "Malware that encrypts files and demands payment for decryption.",
+        "category": "ethical"
+    },
+    {
+        "question": "Spyware",
+        "answer": "Software that secretly gathers information about a user.",
+        "category": "ethical"
+    },
+    {
+        "question": "Adware",
+        "answer": "Software that displays unwanted ads to users.",
+        "category": "ethical"
+    },
+    {
+        "question": "Rootkit",
+        "answer": "Malware that provides unauthorized access while hiding its presence.",
+        "category": "ethical"
+    },
+    {
+        "question": "Keylogger",
+        "answer": "Software that records keystrokes to capture sensitive information.",
+        "category": "ethical"
+    },
+    {
+        "question": "Botnet",
+        "answer": "A network of compromised computers used for malicious activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "IoT (Internet of Things) Security",
+        "answer": "Securing internet-connected devices from cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Ethical ethical",
+        "answer": "Authorized ethical to identify and fix vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Audit",
+        "answer": "Assessment of a system's security to identify weaknesses.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Password",
+        "answer": "A strong and complex password that enhances security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Patch Management",
+        "answer": "Regularly updating software to fix vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Brute Force Attack",
+        "answer": "Repeatedly trying all possible combinations to guess a password.",
+        "category": "ethical"
+    },
+    {
+        "question": "Dictionary Attack",
+        "answer": "Using a list of common words to guess passwords.",
+        "category": "ethical"
+    },
+    {
+        "question": "Rainbow Table Attack",
+        "answer": "Using precomputed tables to crack password hashes.",
+        "category": "ethical"
+    },
+    {
+        "question": "Phishing",
+        "answer": "Sending deceptive emails to trick users into revealing information.",
+        "category": "ethical"
+    },
+    {
+        "question": "Spear Phishing",
+        "answer": "Targeted phishing attacks focused on specific individuals.",
+        "category": "ethical"
+    },
+    {
+        "question": "Whaling",
+        "answer": "Spear phishing targeting high-profile individuals.",
+        "category": "ethical"
+    },
+    {
+        "question": "Ransomware",
+        "answer": "Malware that encrypts files and demands payment for decryption.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cryptojacking",
+        "answer": "Using a victim's computer to mine cryptocurrency.",
+        "category": "ethical"
+    },
+    {
+        "question": "Botnet",
+        "answer": "A network of compromised computers used for malicious activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Keylogger",
+        "answer": "Software that records keystrokes to capture sensitive information.",
+        "category": "ethical"
+    },
+    {
+        "question": "Rootkit",
+        "answer": "Malware that provides unauthorized access while hiding its presence.",
+        "category": "ethical"
+    },
+    {
+        "question": "Backdoor",
+        "answer": "A hidden access point to a system, allowing unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Exploit Kit",
+        "answer": "Software used to automate the process of exploiting vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Zero-Day Exploit",
+        "answer": "An exploit targeting a vulnerability before it's publicly known.",
+        "category": "ethical"
+    },
+    {
+        "question": "Vulnerability",
+        "answer": "A weakness in a system that can be exploited by attackers.",
+        "category": "ethical"
+    },
+    {
+        "question": "Payload",
+        "answer": "Malicious code delivered after exploiting a vulnerability.",
+        "category": "ethical"
+    },
+    {
+        "question": "Metasploit Framework",
+        "answer": "An open-source tool for developing and executing exploit code.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Sniffing",
+        "answer": "Monitoring network traffic to capture sensitive data.",
+        "category": "ethical"
+    },
+    {
+        "question": "Firewall",
+        "answer": "A network security device that monitors and filters traffic.",
+        "category": "ethical"
+    },
+    {
+        "question": "Intrusion Detection System (IDS)",
+        "answer": "Software/hardware that detects unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Intrusion Prevention System (IPS)",
+        "answer": "Software/hardware that actively blocks unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Honeypot",
+        "answer": "A decoy system used to lure attackers and gather information.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cryptography",
+        "answer": "Techniques to secure communication through codes and ciphers.",
+        "category": "ethical"
+    },
+    {
+        "question": "Public Key Infrastructure (PKI)",
+        "answer": "Managing digital keys and certificates.",
+        "category": "ethical"
+    },
+    {
+        "question": "SSL/TLS",
+        "answer": "Protocols for secure communication.",
+        "category": "ethical"
+    },
+    {
+        "question": "Key Exchange",
+        "answer": "Securely transmitting encryption keys.",
+        "category": "ethical"
+    },
+    {
+        "question": "Hashing",
+        "answer": "Converting data into fixed-size values for data integrity.",
+        "category": "ethical"
+    },
+    {
+        "question": "Salting",
+        "answer": "Adding random data to passwords before hashing.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Security",
+        "answer": "Protecting a network from unauthorized access and threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Endpoint Security",
+        "answer": "Securing devices from cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Patch Management",
+        "answer": "Regularly updating software to fix vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Coding",
+        "answer": "Writing code resilient to security vulnerabilities and attacks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Assessment",
+        "answer": "Evaluating a system's security for vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Root Access",
+        "answer": "Full administrative access to a system or device.",
+        "category": "ethical"
+    },
+    {
+        "question": "Fuzz Testing",
+        "answer": "Inputting random data to find vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Socket Layer (SSL)",
+        "answer": "Cryptographic protocol for secure communication.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Shell (SSH)",
+        "answer": "Cryptographic protocol for secure remote access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Segmentation",
+        "answer": "Dividing a network to limit the spread of attacks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Wireless Security",
+        "answer": "Securing wireless networks from unauthorized access.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Monitoring",
+        "answer": "Continuous monitoring of network traffic for security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Cyber Threat Intelligence",
+        "answer": "Information about potential and current cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Incident",
+        "answer": "An event indicating a potential security breach.",
+        "category": "ethical"
+    },
+    {
+        "question": "Incident Response Plan",
+        "answer": "A strategy for addressing and managing security incidents.",
+        "category": "ethical"
+    },
+    {
+        "question": "CISO (Chief Information Security Officer)",
+        "answer": "The senior executive responsible for information security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Patch Tuesday",
+        "answer": "The second Tuesday of each month for software updates.",
+        "category": "ethical"
+    },
+    {
+        "question": "Network Access Control (NAC)",
+        "answer": "Managing and securing network access based on policies.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Assessment",
+        "answer": "Evaluating a system's security for vulnerabilities and risks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malware Analysis",
+        "answer": "Examining malware behavior, functionality, and impact.",
+        "category": "ethical"
+    },
+    {
+        "question": "Threat Modeling",
+        "answer": "Identifying potential threats and vulnerabilities in a system.",
+        "category": "ethical"
+    },
+    {
+        "question": "Secure Development Lifecycle (SDL)",
+        "answer": "Incorporating security practices in software development.",
+        "category": "ethical"
+    },
+    {
+        "question": "Hacker",
+        "answer": "An individual with advanced computer skills.",
+        "category": "ethical"
+    },
+    {
+        "question": "Payload",
+        "answer": "Malicious code or action delivered after exploiting a vulnerability.",
+        "category": "ethical"
+    },
+    {
+        "question": "Exploit Kit",
+        "answer": "A toolkit for finding and exploiting vulnerabilities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Digital Forensics",
+        "answer": "Investigating digital devices for legal evidence.",
+        "category": "ethical"
+    },
+    {
+        "question": "IDS (Intrusion Detection System)",
+        "answer": "Detects unauthorized access or activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Awareness Training",
+        "answer": "Educating individuals on security risks and best practices.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malware",
+        "answer": "Malicious software that compromises or damages systems.",
+        "category": "ethical"
+    },
+    {
+        "question": "Rootkit",
+        "answer": "Malware that provides unauthorized access while hiding.",
+        "category": "ethical"
+    },
+    {
+        "question": "Backdoor",
+        "answer": "A hidden access point to a system.",
+        "category": "ethical"
+    },
+    {
+        "question": "Botnet",
+        "answer": "A network of compromised computers used for malicious activities.",
+        "category": "ethical"
+    },
+    {
+        "question": "Proxy Server",
+        "answer": "Intermediary server between users and the internet.",
+        "category": "ethical"
+    },
+    {
+        "question": "Anonymity",
+        "answer": "Concealing identity and online activities for privacy.",
+        "category": "ethical"
+    },
+    {
+        "question": "VPN (Virtual Private Network)",
+        "answer": "Secure network connection providing anonymity and privacy.",
+        "category": "ethical"
+    },
+    {
+        "question": "TOR (The Onion Router)",
+        "answer": "Anonymizing internet traffic and access.",
+        "category": "ethical"
+    },
+    {
+        "question": "End-to-End Encryption",
+        "answer": "Secure communication where only sender and recipient can access content.",
+        "category": "ethical"
+    },
+    {
+        "question": "Data Breach",
+        "answer": "Unauthorized access and release of sensitive data.",
+        "category": "ethical"
+    },
+    {
+        "question": "Incident Response",
+        "answer": "Coordinated approach to addressing and managing security incidents.",
+        "category": "ethical"
+    },
+    {
+        "question": "Security Policy",
+        "answer": "A set of rules and guidelines for ensuring security.",
+        "category": "ethical"
+    },
+    {
+        "question": "Threat Intelligence",
+        "answer": "Information about potential and current cyber threats.",
+        "category": "ethical"
+    },
+    {
+        "question": "Encryption Key",
+        "answer": "A code used to encrypt and decrypt data.",
+        "category": "ethical"
+    },
+    {
+        "question": "Malware",
+        "answer": "Malicious software that compromises or damages systems.",
+        "category": "ethical"
+    },
+    {
+        "question": "Virus",
+        "answer": "A type of malware that spreads and infects other programs.",
+        "category": "ethical"
+    },
+    {
+        "question": "Worm",
+        "answer": "A self-replicating malware that spreads across networks.",
+        "category": "ethical"
+    },
+    {
+        "question": "Ransomware",
+        "answer": "Malware that encrypts files and demands payment for decryption.",
+        "category": "ethical"
     }
 ]
