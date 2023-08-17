@@ -9,7 +9,7 @@ const Body = () => {
   const [suggestion, setSuggestion] = useState([]);
   const [showAnswer, setShowAnswer] = useState(false);
   const inputRef = useRef(null);
-
+  
   const selectQuestionHandler = (selected) => {
     inputRef.current.value = selected.question;
     setSuggestion([]);
@@ -31,6 +31,7 @@ const Body = () => {
     setData(DB);
     console.log(answer);
   }, [answer]);
+
 
   return (
     <>

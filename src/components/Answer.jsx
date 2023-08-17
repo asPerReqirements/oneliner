@@ -1,4 +1,6 @@
+
 // not using this anymore
+
 const Answer = ({ answer, showAnswer, setShowAnswer }) => {
   const hide = () => {
     setShowAnswer(false);
@@ -19,5 +21,6 @@ const Answer = ({ answer, showAnswer, setShowAnswer }) => {
     </>
   );
 };
+
 
 export default Answer;
