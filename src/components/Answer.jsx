@@ -1,22 +1,20 @@
 
 // not using this anymore
 
-const Answer = ({ answer, showAnswer, setShowAnswer }) => {
-  const hide = () => {
-    setShowAnswer(false);
-  };
+const Answer = ({ answer }) => {
 
   return (
     <>
-      {showAnswer && (
-        <div className="answer">
-          <div className="answer_conatiner">
-            <p className="answer__p">{answer.answer}</p>
-            <button onClick={hide} className="hide_answer">
-              x
-            </button>
+      {answer !== "" && (
+        <section className="section__answer">
+          <div className="answer">
+            <div className="answer_conatiner">
+              <p className="answer__p">
+                {answer}
+              </p>
+            </div>
           </div>
-        </div>
+        </section>
       )}
     </>
   );

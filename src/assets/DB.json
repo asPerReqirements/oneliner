@@ -60,14 +60,14 @@
     "category": "linux"
   },
   {
-    "question": "htop 2",
-    "answer": "Interactive process viewer",
-    "category": "linux"
-  },
-  {
     "question": "uniq",
     "answer": "Display unique lines from a sorted file. Example: `sort file.txt | uniq` (removes duplicate lines from a sorted text file)",
     "category": "linux"
+  },
+  {
+    "question":"apple",
+    "answer":"Lookup domain registration information. Example: `whois example.com` (retrieves WHOIS information for example.com)jashhhhhhhhhhhhhhhhhhhhhsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeennnnnnnnnnnnnnn",
+    "category":""
   },
   {
     "question": "rot13",
@@ -85,7 +85,7 @@
     "category": "linux"
   },
   {
-    "question": "netsparker 1",
+    "question": "netsparker",
     "answer": " Web application security scanner. Example: `netsparker scan https://www.example.com` (scans a website for vulnerabilities)",
     "category": "linux"
   },
@@ -107,11 +107,6 @@
   {
     "question": "ipconfig",
     "answer": "config a network interface.",
-    "category": "linux"
-  },
-  {
-    "question": "aircrack 2",
-    "answer": "Wi-Fi network security tool. Example: `aircrack-ng capture.cap` (cracks WEP or WPA keys from a Wi-Fi capture file)",
     "category": "linux"
   },
   {
@@ -175,17 +170,12 @@
     "category": "linux"
   },
   {
-    "question": "searchsploit",
-    "answer": "Search for exploits in Exploit Database. Example: `searchsploit wordpress` (searches for exploits related to WordPress)",
-    "category": "linux"
-  },
-  {
     "question": "ip a",
     "answer": "Show IP addresses of network interfaces. Example: `ip a` (displays IP addresses and network interfaces)",
     "category": "linux"
   },
   {
-    "question": "arp 1",
+    "question": "arp",
     "answer": "Display or modify the IP-to-Physical address translation tables. Example: `arp -a` (displays the ARP table)",
     "category": "linux"
   },
@@ -360,11 +350,6 @@
     "category": "linux"
   },
   {
-    "question": "arp 2",
-    "answer": "Display or modify the IP-to-Physical address translation tables. Example: `arp -a` (displays the ARP table)",
-    "category": "linux"
-  },
-  {
     "question": "sudo",
     "answer": "execute a command as another user",
     "category": "linux"
@@ -425,7 +410,7 @@
     "category": "linux"
   },
   {
-    "question": "htop 1",
+    "question": "htop",
     "answer": "Interactive process viewer. Example: `htop` (displays interactive system processes)",
     "category": "linux"
   },
@@ -470,11 +455,6 @@
     "category": "linux"
   },
   {
-    "question": "netsparker 2",
-    "answer": "Web application security scanner. Example: `netsparker scan https://www.example.com` (scans a website for vulnerabilities)",
-    "category": "linux"
-  },
-  {
     "question": "acunetis",
     "answer": "Web vulnerability scanner. ",
     "category": "linux"
@@ -485,7 +465,7 @@
     "category": "linux"
   },
   {
-    "question": "aircrack 1",
+    "question": "aircrack",
     "answer": "Wi-Fi network security tool. Example: `aircrack-ng capture.cap` (cracks WEP/WPA keys from a Wi-Fi capture file)",
     "category": "linux"
   },

@@ -90,10 +90,6 @@ header h1 {
 
 .answer {
   width: 48%;
-  border: none;
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
 }
 
 .answer__p {
@@ -104,12 +100,16 @@ header h1 {
   background-color: var(--text-color);
   padding: 5px 10px;
   word-wrap: break-word;
+  max-width: 100%;
   user-select: all;
 }
 
 .answer_conatiner {
   display: flex;
   position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .hide_answer {
@@ -274,4 +274,7 @@ a {
 }
 .inputControl .suggestion p:hover {
   opacity: 0.5;
+}
+.input-text{
+  outline: none;
 }
