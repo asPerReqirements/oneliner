@@ -1,27 +1,27 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Answer from "./Answer";
 import DB from "../assets/DB.json";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 const Body = () => {
   const [data, setData] = useState([]);
   const [answer, setAnswer] = useState("search for something");
   const [suggestion, setSuggestion] = useState([]);
-  const [showAnswer, setShowAnswer] = useState(false);
-  const inputRef = useRef(null);
-  
+  const [question, setQuestion] = useState(null);
+
   const selectQuestionHandler = (selected) => {
-    inputRef.current.value = selected.question;
-    setSuggestion([]);
+    setSuggestion(null);
+    setQuestion(selected.question);
     setAnswer(selected.answer);
   };
 
-  const handleSearch = () => {
-    const value = inputRef.current.value;
+  const handleSearch = (e) => {
 
-    if (value !== "") {
-      setSuggestion(data.filter((block) => block.question.startsWith(value)));
-    } else {
+    setQuestion(e.target.value);
+
+    if (question !== "") {
+      setSuggestion(data.filter((block) => block.question.startsWith(question)));
+    }
+    else {
       setSuggestion([]);
       setAnswer("search for something");
     }
@@ -29,8 +29,7 @@ const Body = () => {
 
   useEffect(() => {
     setData(DB);
-    console.log(answer);
-  }, [answer]);
+  }, []);
 
 
   return (
@@ -39,15 +38,19 @@ const Body = () => {
         <div className="inputControl">
           <input
             autoFocus
-            ref={inputRef}
             type="text"
             onChange={handleSearch}
             placeholder="Search"
+            value={question}
+            className="input-text"
           />
           <div className="suggestion">
-            {suggestion?.map((item) => (
+            {suggestion?.slice(0, 5).map((item) => (
               <p
-                onClick={() => selectQuestionHandler(item)}
+                onClick={() => {
+                  selectQuestionHandler(item)
+                  setSuggestion(null)
+                }}
                 key={item.question}
               >
                 {item.question}
@@ -56,17 +59,7 @@ const Body = () => {
           </div>
         </div>
       </section>
-      {answer !== "" && (
-        <section className="section__answer">
-          <div className="answer">
-            <div className="answer_conatiner">
-              <p className="answer__p">
-                <ReactMarkdown>{answer}</ReactMarkdown>
-              </p>
-            </div>
-          </div>
-        </section>
-      )}
+      <Answer answer={answer} />
     </>
   );
 };
